@@ -1,0 +1,90 @@
+
+============subindo a maquina virtual.==============
+abra o "CMD" execute o comando "DIR" para ver onde o pront esta executando,
+de um "CD pasta do projeto"  
+execute o comando "vagrant up" para inicializar a VM.
+
+==============Executando o VM ======================
+abra o "PUTTY" selecione a opcao "Vagrant" click em "load" e em seguida em "OPEN"
+
+
+====================================================
+
+
+ruby e um interpretador do php
+rails é um interpretador do zend, symgony elaravel
+
+o ruby funciona integrado com o APACHE + PHP (modulo) start/stop juntos
+
+
+requisicao  => 	 HTTP (serve arquivos)
+/produtos/listar Apache  => PROXY => Servidor de aplicacao 
+Navegador 	 Nginx 		 <=   em outra porta (8080, 3000)
+
+
+Ruby => WebBrick  (app dev faz tudo)
+	App producao: thin, passenger, unicorn, puma, mongrel
+
+pode fazer site so com ruby , diferente do php que so e projetado pra desenvolver app web
+ruby vc tem que utilizar varias bibliotecas de templates.
+
+
+Composer no php => no ruby tem o  Rubygem ( instalar pacotes)
+				  Bundler (resolucao de dependencia)
+
+o comportamento dos "gems" sao instaladas globalmente ( nao precisa intalar novamente) (composer instala no vendor)
+
+GEM : serve pra vc instalar as dependencias do seu projeto ( buscar arquivos ja instalados para utilizar em outros projetos   "DEFINIR DEPENDENCIAS").
+
+
+criando projeto 
+
+escolha uma pasta que vc vai quere criar seu projeto 
+rails "nome do projeto" usa o "-B" para pular o processo de instalacao do bundle.
+só executa o Bundle caso vc nao tenha usado o -B no comando rails
+
+bundle install --verbose ( serve para voce ver o que esta acontecendo, nao deijando a tela parada)
+
+CONVENTION OVER CONFIGURATION
+segue um padrao de logica para casos de projetos importados entre outros, deixando uma ierarquia nso projetos.
+
+"(estrutura de pastas, nomes de arquivos, maiusculo/minusculo,singular/plural)"
+
+---------
+gemfile
+
+pasta public
+
+ira trabalhar na pasta "app"
+os mais importantes sao, padrao  MVC "controlers, models e views" 
+tudo o que vai para o usuario é "VIEW"
+model sao minha entidades de regras de negocio "banco de dados"
+controler serve para gerenciar tudo 
+
+Rotas:  Mapeia URL para um Controller
+
+rails server  acesse no browser => (localhost:3000) 
+
+
+
+vamos criar um controler e criar uma acao dentro dessa rota pra responder no home.
+	rails g controller pages home         ("g" abreviacao de generate)
+	se utilizar o controller -s (skip) ignora arquivos ja existentes
+
+< = extends
+def = function
+
+**** UTILIZAR O GENERATIORS APENAS A PRIMEIRA VEZ ( sobrescreve)
+
+
+
+
+
+
+
+
+
+
+
+instancias
+metodos estaticos
