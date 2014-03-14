@@ -4,82 +4,84 @@
     <h1>tarefas</h1>
 
     <%= form_tag tarefas_path do %>
-      <input id="new-todo"
-             placeholder="O que você precisa fazer?"
-             name="tarefa"
-             autofocus
-             required>
+        <input id="new-todo"
+               placeholder="O que você precisa fazer?"
+               name="tarefa"
+               autofocus
+               required>
     <% end %>
   </header>
 
   <section id="main">
     <ul id="todo-list">
-      
+
       <% for tarefa in @tarefas %>
-      <li class="<%= 'completed' if tarefa.concluida? %>">
-        <div class="view">
-          <a href="<%= toggle_tarefa_path tarefa %>"
-             class="toggle"
-             data-method="patch"></a>
+          <li class="<%= 'editing ' if @tarefa == tarefa %> <%= 'completed' if tarefa.concluida? %>">
+            <div class="view">
+              <a href="<%= toggle_tarefa_path tarefa %>"
+                 class="toggle"
+                 data-method="patch">
+              </a>
 
-          <label>
+              <label>
+                <a href="<%= edit_tarefa_path tarefa %>?list=<%= action_name %>"
+                >
+                  <%= tarefa.titulo %>
+                </a>
+              </label>
 
-            <%= tarefa.titulo %>
+              <a href="<%= tarefa_path tarefa %>"
+                 data-method="delete"
+                 data-confirm="Tem Certeza?"
+                 class="destroy"></a>
+            </div>
 
-          </label>
+            <%= form_for tarefa do %>
+                <input type="hidden" name="list" value="<%= params[:list] || :index %>">
+                <input class="edit" name="titulo" value="<%= tarefa.titulo %>">
+            <% end %>
 
-          <a href="<%= edit_tarefa_path tarefa %>?list=<%= action_name %>" 
-             data-method="delete"
-             data-confirm="Tem Certeza?"
-             class="destroy"></a>
-        </div>
-
-        <%= form_for tarefa do %>
-+                <input type="hidden" name="list" value="<%= params[:list] || :index %>">
-                 <input class="edit" name="titulo" value="<%= tarefa.titulo %>">
-        <% end %>
-
-      </li>
+          </li>
       <% end %>
 
     </ul>
   </section>
-  
+
   <footer id="footer">
     <span id="todo-count">
       <%= pluralize @tarefas.count, 'tarefa' %>
     </span>
-    
+
     <ul id="filters">
       <li>
         <a class="<%= 'selected' if action_name == 'index' %>"
            href="<%= tarefas_path %>">
-              Todas (<%= @count_todas %>)
+          Todas (<%= @count_todas %>)
         </a>
       </li>
 
       <li>
         <a class="<%= 'selected' if action_name == 'ativas' %>"
-            href="<%= ativas_tarefas_path %>">
-              Ativas (<%= @count_ativas %>)
+           href="<%= ativas_tarefas_path %>">
+          Ativas (<%= @count_ativas %>)
         </a>
       </li>
 
       <li>
         <a class="<%= 'selected' if action_name == 'concluidas' %>"
-           href="<%= concluidas_path %>">
-              Concluídas (<%= @count_concluidas %>)
+           href="<%= concluidas_tarefas_path %>">
+          Concluídas (<%= @count_concluidas %>)
         </a>
       </li>
     </ul>
 
     <% unless @count_concluidas.zero? %>
-    <a id="clear-completed"
-       href="<%= destroy_concluidas_tarefas_path %>"
-       data-method="delete"
-       data-confirm="Tem Certeza?">
+        <a id="clear-completed"
+           href="<%= destroy_concluidas_tarefas_path %>"
+           data-method="delete"
+           data-confirm="Tem Certeza?">
           Excluir Concluídas (<%= @count_concluidas %>)
-    </a>
+        </a>
     <% end %>
   </footer>
 </section>

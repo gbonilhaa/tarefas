@@ -1,17 +1,18 @@
 Tarefas::Application.routes.draw do
   resources :tarefas do
-    collection do
-      get 'ativas'
-      get 'concluidas'
-      delete 'destroy_concluidas'
-    end
+     collection do
+       get 'ativas'
+       get 'concluidas'
+       delete 'destroy_concluidas'
+     end
 
-    member do
-      patch 'toggle'
-    end
-  end
+     member do
+      patch 'toggle' 
+     end
+   end
 
-  root 'tarefas#index'
+   root 'tarefas#index'
+   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
