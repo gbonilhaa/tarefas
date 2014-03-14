@@ -1,61 +1,81 @@
 class TarefasController < ApplicationController
-	before_action :count_all, only: [:index, :ativas, :concluidas]
+  before_action :count_all, only: [:index, :ativas, :concluidas, :edit]
 
-	def index
- 		@tarefas = Tarefa.all
- 		@count_concluidas = count_concluidas
- 	end
+  def index
+    @tarefas = Tarefa.all
+    @count_concluidas = count_concluidas
+  end
 
- 	def ativas
- 		@tarefas = Tarefa.ativas
-	    @count_concluidas = count_concluidas
- 		render :index
- 	end
+  def ativas
+    @tarefas = Tarefa.ativas
+    @count_concluidas = count_concluidas
+    render :index
+  end
 
- 	def concluidas
-	    @tarefas = Tarefa.where concluida: true
-	    @tarefas = Tarefa.concluidas
-	    render :index
+  def concluidas
+    @tarefas = Tarefa.concluidas
+    render :index
+  end
+
+  def edit
+    @tarefas = case params[:list]
+      when 'concluidas' then Tarefa.concluidas
+      when 'ativas' then Tarefa.ativas
+      else Tarefa.all
     end
-	def destroy
-	    tarefa = Tarefa.find params[:id]
-	    tarefa.destroy
-	    redirect_to tarefas_path
-	end
 
-	def destroy_concluidas
-	    Tarefa.concluidas.delete_all
-	    redirect_to tarefas_path
-	end
+    @tarefa = Tarefa.find params[:id]
+    render :index
+  end
 
-	def toggle
-	    Tarefa.find(params[:id]).toggle! :concluida
-	    redirect_to tarefas_path
-	end
+  def destroy
+    tarefa = Tarefa.find params[:id]
+    tarefa.destroy
+    redirect_to :back
+  end
 
-	def create
-	    Tarefa.create titulo: params[:tarefa]
-	    redirect_to tarefas_path
-  	end
+  def update
+    Tarefa.update params[:id], titulo: params[:titulo]
+    #redirect_to tarefas_path
+    redirect_to case params[:list]
+       when 'concluidas' then concluidas_tarefas_path
+       when 'ativas' then ativas_tarefas_path
+       else tarefas_path
+     end
+  end
 
-	private
+  def destroy_concluidas
+    Tarefa.concluidas.delete_all
+    redirect_to tarefas_path
+  end
 
-		def count_all
-		    count_concluidas
-		    count_todas
-		    count_ativas
-	  end
+  def toggle
+    Tarefa.find(params[:id]).toggle! :concluida
+    redirect_to tarefas_path
+  end
 
-	  def count_concluidas
-	    	@count_concluidas = Tarefa.concluidas.count
-	  end
+  def create
+    Tarefa.create titulo: params[:tarefa]
+    redirect_to :back
+  end
 
-	  def count_ativas
-	    	@count_ativas = Tarefa.ativas.count
-	  end
+private
 
-	  def count_todas
-			Add a comment to this line
-		    @count_todas = Tarefa.count
-	  end
+  def count_all
+    count_concluidas
+    count_todas
+    count_ativas
+  end
+
+  def count_concluidas
+    @count_concluidas = Tarefa.concluidas.count
+  end
+
+  def count_ativas
+    @count_ativas = Tarefa.ativas.count
+  end
+
+  def count_todas
+    @count_todas = Tarefa.count
+  end
 end

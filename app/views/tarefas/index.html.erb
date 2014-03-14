@@ -22,13 +22,23 @@
              class="toggle"
              data-method="patch"></a>
 
-          <label><%= tarefa.titulo %></label>
+          <label>
 
-          <a href="<%= tarefa_path tarefa %>" 
+            <%= tarefa.titulo %>
+
+          </label>
+
+          <a href="<%= edit_tarefa_path tarefa %>?list=<%= action_name %>" 
              data-method="delete"
              data-confirm="Tem Certeza?"
              class="destroy"></a>
         </div>
+
+        <%= form_for tarefa do %>
++                <input type="hidden" name="list" value="<%= params[:list] || :index %>">
+                 <input class="edit" name="titulo" value="<%= tarefa.titulo %>">
+        <% end %>
+
       </li>
       <% end %>
 
