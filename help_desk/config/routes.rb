@@ -1,9 +1,15 @@
 HelpDesk::Application.routes.draw do
+  get 'recursos' => 'paginas#recurso'
+  get 'precos' => 'paginas#preco'
+  get 'contato' => 'paginas#contato'
+  post 'contato' => 'paginas#envia_contato'
+  get 'contatos' => 'paginas#contatos'
+  delete 'contato/id' => 'paginas#destroy', as: destroy_contatos
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'paginas#home'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
