@@ -1,6 +1,9 @@
 Tarefas::Application.routes.draw do
-  get "seguro/index"
-  get "login/login"
+  # get "seguro/index"
+  # get "login/login"
+  
+  resources :usuarios
+
   resources :tarefas do
     collection do
        get 'ativas'
@@ -13,7 +16,7 @@ Tarefas::Application.routes.draw do
       patch 'toggle' 
      end
    end
-   
+
    root 'tarefas#index'
    
   # The priority is based upon order of creation: first created -> highest priority.

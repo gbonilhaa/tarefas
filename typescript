@@ -162,4 +162,32 @@ After doing this, you may fix the identity used for this commit with:
  create mode 100644 test/helpers/seguro_helper_test.rb
  create mode 100644 typescript
 [1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m)$ [K[45C[34m[2.1.0][39m[52D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m)$ [K[45C[34m[2.1.0][39m[52D[32mg[39m[32mg[32mt[39m[32mg[39m[39m [32mg[32mi[39m[32mg[32mi[32mt[39m [4ma[24m[4m[33ma[4m[33md[24m[39m[24m[39ma[24m[39mdd [4m.[24m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m)$ [32mgit[39m add [4m.[24m[K[36C[34m[2.1.0][39m[43D
-]2;noglob]1;noglob[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagra
+]2;noglob]1;noglob[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [K[42C[34m[2.1.0][39m[49D[32mg[39m[32mg[32mi[39m[32mg[32mi[32mt[39m [4mc[24m[4mc[4mo[24m[4m[33mc[4m[33mo[4m[33mm[24m[39m[24m[39mc[24m[39mo[24m[39mmmit -, m [4m[33m"[24m[39m[4m[33m"[4m[33ma[24m[39m[24m[39m"[24m[39majusa ta campos para salva us[Kuario[33D[33m"[33ma[33mj[33mu[33ms[33mt[33ma[33m [33mc[33ma[33mm[33mp[33mo[33ms[33m [33mp[33ma[33mr[33ma[33m [33ms[33ma[33ml[33mv[33ma[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33m"[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [32mgit[39m commit -m [33m"ajusta campos para salva usuario"[39m[K
+]2;noglob]1;noglob[master 2ae25b6] ajusta campos para salva usuario
+ Committer: vagrant <vagrant@precise32.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 10 insertions(+), 8 deletions(-)
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[32mg[39m[32mg[32mi[39m[32mg[32mi[32mt[39m [4ma[24m[4m[33ma[4m[33md[24m[39m[24m[39ma[24m[39mdd [4m.[24m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [32mgit[39m add [4m.[24m[K[33C[34m[2.1.0][39m[40D
+]2;noglob]1;noglob[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [K[42C[34m[2.1.0][39m[49D[32mg[39m[32mg[32mi[39m[32mg[32mi[32mt[39m [4mc[24m[4mc[4mo[24m[4m[33mc[4m[33mo[4m[33mm[24m[39m[24m[39mc[24m[39mo[24m[39mmmit -m [4m[33m"[24m[39m[24m[39m" adicio nou listar usuarios[1C[1C[1C[1C[1C[1C[26D[33m"[33m [33ma[33md[33mi[33mc[33mi[33mn[33mo[33mu[33m [33ml[33mi[33ms[33mt[33ma[33mr[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33ms[33m"[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [32mgit[39m commit -m [33m" adicinou listar usuarios"[39m[K[1C[34m[2.1.0][39m[8D
+]2;noglob]1;noglob[master 99f0faf]  adicinou listar usuarios
+ Committer: vagrant <vagrant@precise32.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset
