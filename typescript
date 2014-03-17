@@ -71,56 +71,6 @@ Script started on Mon 17 Mar 2014 01:40:46 PM UTC
 	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/commands.rb:44:in `<top (required)>'
 	from bin/rails:4:in `require'
 	from bin/rails:4:in `<main>'
-[1m[7m%[27m[with_scope_level'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1286:in `collection'
-	from /vagrant/tarefas/config/routes.rb:5:in `block (2 levels) in <top (required)>'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1250:in `block in resources'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1549:in `block (2 levels) in resource_scope'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:723:in `scope'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1548:in `block in resource_scope'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1540:in `with_scope_level'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1547:in `resource_scope'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1249:in `resources'
-	from /vagrant/tarefas/config/routes.rb:4:in `block in <top (required)>'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:341:in `instance_exec'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:341:in `eval_block'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:319:in `draw'
-	from /vagrant/tarefas/config/routes.rb:1:in `<top (required)>'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.3/lib/active_support/dependencies.rb:223:in `load'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.3/lib/active_support/dependencies.rb:223:in `block in load'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.3/lib/active_support/dependencies.rb:214:in `load_dependency'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.3/lib/active_support/dependencies.rb:223:in `load'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:40:in `each'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:40:in `load_paths'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:16:in `reload!'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:26:in `block in updater'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.3/lib/active_support/file_update_checker.rb:75:in `call'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.3/lib/active_support/file_update_checker.rb:75:in `execute'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:27:in `updater'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:6:in `execute_if_updated'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/finisher.rb:69:in `block in <module:Finisher>'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/initializable.rb:30:in `instance_exec'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/initializable.rb:30:in `run'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/initializable.rb:55:in `block in run_initializers'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:345:in `each'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:345:in `call'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/initializable.rb:54:in `run_initializers'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application.rb:215:in `initialize!'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/railtie/configurable.rb:30:in `method_missing'
-	from /vagrant/tarefas/config/environment.rb:5:in `<top (required)>'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application.rb:189:in `require'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application.rb:189:in `require_environment!'
-	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/commands.rb:44:in `<top (required)>'
-	from bin/rails:4:in `require'
-	from bin/rails:4:in `<main>'
 [1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[39C[34m[2.1.0][39m[46D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[39C[34m[2.1.0][39m[46Drrake db:migrat[14D[32mr[32ma[32mk[32me[39m[10Ce[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mrake[39m db:migrate[K[24C[34m[2.1.0][39m[31D
 ]2;noglob]1;noglobrake aborted!
 undefined local variable or method `login' for #<ActionDispatch::Routing::Mapper:0xb92b064c>
@@ -131,4 +81,85 @@ undefined local variable or method `login' for #<ActionDispatch::Routing::Mapper
 /vagrant/tarefas/config/environment.rb:5:in `<top (required)>'
 Tasks: TOP => db:migrate => environment
 (See full trace by running task with --trace)
-[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[39C[34m[2.1.0][39m[46D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[39C[34m[2.1.0][39m[46D[32mg[39m[32mg[32mi[39m[32mg[32mi[32mt[39m [4ma[24m[4m[33ma[4m[33md[24m[39m[24m[39ma[24m[39mdd [4m.[24m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[39C[34m[2.1.0][39m[46D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[39C[34m[2.1.0][39m[46D[32mg[39m[32mg[32mi[39m[32mg[32mi[32mt[39m [4ma[24m[4m[33ma[4m[33md[24m[39m[24m[39ma[24m[39mdd [4m.[24m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mgit[39m add [4m.[24m[K[30C[34m[2.1.0][39m[37D
+]2;noglob]1;noglobgi[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefast c[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [K[42C[34m[2.1.0][39m[49Dggit [32mg[32mi[32mt[39m [4mc[24m[4mc[4mo[24m[4mc[24m[24m [24m [32mg[32mi[39m[39m [32mg[39m[39m [39m [32mg[39m[32mg[32mi[39m[32mg[32mi[32mt[39m [4mc[24m[4mc[4mo[24m[4m[33mc[4m[33mo[4m[33mm[24m[39m[24m[39mc[24m[39mo[24m[39mmmit [4m[33m=[24m[39m[4m[33m=[4m[33mm[24m[39m[4m[33m=[24m[39m[24m[39m [24m[39m -m [4m[33m"[24m[39m[4m[33m"[4m[33mc[24m[39m[24m[39m"[24m[39mcriando tabelas usuario/log[Kin[30D[33m"[33mc[33mr[33mi[33ma[33mn[33md[33mo[33m [33mt[33ma[33mb[33me[33ml[33ma[33ms[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33m/[33ml[33mo[33mg[33mi[33mn[33m"[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [32mgit[39m commit -m [33m"criando tabelas usuario/login"[39m[K
+]2;noglob]1;noglob[master 96bef6a] criando tabelas usuario/login
+ Committer: vagrant <vagrant@precise32.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 22 files changed, 386 insertions(+), 14 deletions(-)
+ create mode 100644 app/assets/javascripts/login.js.coffee
+ create mode 100644 app/assets/javascripts/seguro.js.coffee
+ create mode 100644 app/assets/stylesheets/login.css.scss
+ create mode 100644 app/assets/stylesheets/seguro.css.scss
+ create mode 100644 app/controllers/login_controller.rb
+ create mode 100644 app/controllers/usuarios_controler.rb
+ create mode 100644 app/helpers/login_helper.rb
+ create mode 100644 app/helpers/seguro_helper.rb
+ create mode 100644 app/views/login/login.html.erb
+ create mode 100644 app/views/usuarios/index.html.erb
+ create mode 100644 app/views/usuarios/usuarios.html.rb
+ create mode 100644 test/controllers/login_controller_test.rb
+ create mode 100644 test/controllers/seguro_controller_test.rb
+ create mode 100644 test/helpers/login_helper_test.rb
+ create mode 100644 test/helpers/seguro_helper_test.rb
+ create mode 100644 typescript
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m)$ [K[45C[34m[2.1.0][39m[52D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m)$ [K[45C[34m[2.1.0][39m[52D[32mg[39m[32mg[32mt[39m[32mg[39m[39m [32mg[32mi[39m[32mg[32mi[32mt[39m [4ma[24m[4m[33ma[4m[33md[24m[39m[24m[39ma[24m[39mdd [4m.[24m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m)$ [32mgit[39m add [4m.[24m[K[36C[34m[2.1.0][39m[43D
+]2;noglob]1;noglob[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [K[42C[34m[2.1.0][39m[49D[32mg[39m[32mg[32mi[39m[32mg[32mi[32mt[39m [4mc[24m[4mc[4mo[24m[4m[33mc[4m[33mo[4m[33mm[24m[39m[24m[39mc[24m[39mo[24m[39mmmit -, m [4m[33m"[24m[39m[4m[33m"[4m[33ma[24m[39m[24m[39m"[24m[39majusa ta campos para salva us[Kuario[33D[33m"[33ma[33mj[33mu[33ms[33mt[33ma[33m [33mc[33ma[33mm[33mp[33mo[33ms[33m [33mp[33ma[33mr[33ma[33m [33ms[33ma[33ml[33mv[33ma[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33m"[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [32mgit[39m commit -m [33m"ajusta campos para salva usuario"[39m[K
+]2;noglob]1;noglob[master 2ae25b6] ajusta campos para salva usuario
+ Committer: vagrant <vagrant@precise32.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 10 insertions(+), 8 deletions(-)
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ 39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mgit[39m add [4m.[24m[K[30C[34m[2.1.0][39m[37D
+]2;noglob]1;noglobgi[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefast c[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [K[42C[34m[2.1.0][39m[49Dggit [32mg[32mi[32mt[39m [4mc[24m[4mc[4mo[24m[4mc[24m[24m [24m [32mg[32mi[39m[39m [32mg[39m[39m [39m [32mg[39m[32mg[32mi[39m[32mg[32mi[32mt[39m [4mc[24m[4mc[4mo[24m[4m[33mc[4m[33mo[4m[33mm[24m[39m[24m[39mc[24m[39mo[24m[39mmmit [4m[33m=[24m[39m[4m[33m=[4m[33mm[24m[39m[4m[33m=[24m[39m[24m[39m [24m[39m -m [4m[33m"[24m[39m[4m[33m"[4m[33mc[24m[39m[24m[39m"[24m[39mcriando tabelas usuario/log[Kin[30D[33m"[33mc[33mr[33mi[33ma[33mn[33md[33mo[33m [33mt[33ma[33mb[33me[33ml[33ma[33ms[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33m/[33ml[33mo[33mg[33mi[33mn[33m"[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [32mgit[39m commit -m [33m"criando tabelas usuario/login"[39m[K
+]2;noglob]1;noglob[master 96bef6a] criando tabelas usuario/login
+ Committer: vagrant <vagrant@precise32.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 22 files changed, 386 insertions(+), 14 deletions(-)
+ create mode 100644 app/assets/javascripts/login.js.coffee
+ create mode 100644 app/assets/javascripts/seguro.js.coffee
+ create mode 100644 app/assets/stylesheets/login.css.scss
+ create mode 100644 app/assets/stylesheets/seguro.css.scss
+ create mode 100644 app/controllers/login_controller.rb
+ create mode 100644 app/controllers/usuarios_controler.rb
+ create mode 100644 app/helpers/login_helper.rb
+ create mode 100644 app/helpers/seguro_helper.rb
+ create mode 100644 app/views/login/login.html.erb
+ create mode 100644 app/views/usuarios/index.html.erb
+ create mode 100644 app/views/usuarios/usuarios.html.rb
+ create mode 100644 test/controllers/login_controller_test.rb
+ create mode 100644 test/controllers/seguro_controller_test.rb
+ create mode 100644 test/helpers/login_helper_test.rb
+ create mode 100644 test/helpers/seguro_helper_test.rb
+ create mode 100644 typescript
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m)$ [K[45C[34m[2.1.0][39m[52D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m)$ [K[45C[34m[2.1.0][39m[52D[32mg[39m[32mg[32mt[39m[32mg[39m[39m [32mg[32mi[39m[32mg[32mi[32mt[39m [4ma[24m[4m[33ma[4m[33md[24m[39m[24m[39ma[24m[39mdd [4m.[24m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m)$ [32mgit[39m add [4m.[24m[K[36C[34m[2.1.0][39m[43D
+]2;noglob]1;noglob[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagra
