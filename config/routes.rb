@@ -1,16 +1,19 @@
 Tarefas::Application.routes.draw do
+  get "seguro/index"
+  get "login/login"
   resources :tarefas do
-     collection do
+    collection do
        get 'ativas'
        get 'concluidas'
        delete 'destroy_concluidas'
      end
 
+
      member do
       patch 'toggle' 
      end
    end
-
+   
    root 'tarefas#index'
    
   # The priority is based upon order of creation: first created -> highest priority.

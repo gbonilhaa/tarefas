@@ -1,11 +1,20 @@
 class TarefasController < ApplicationController
-  before_action :count_all, only: [:index, :ativas, :concluidas, :edit]
+  before_action :count_all, only: [:index, :ativas, :concluidas, :edit, :login]
 
   def index
     @tarefas = Tarefa.all
     @count_concluidas = count_concluidas
   end
 
+
+  /  pedir login e senha antes 
+  protected
+  def secure?
+    true
+  end /
+  def login
+    login
+  end
   def ativas
     @tarefas = Tarefa.ativas
     @count_concluidas = count_concluidas

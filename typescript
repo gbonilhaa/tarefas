@@ -1,0 +1,134 @@
+Script started on Mon 17 Mar 2014 01:40:46 PM UTC
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[39C[34m[2.1.0][39m[46D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[39C[34m[2.1.0][39m[46D[32mg[39m[39m[4mg[4me[24m[4m[33mg[4m[33me[4m[33mn[24m[39m[24m[1m[31mg[24m[1m[31me[24m[1m[31mn[1m[31me[0m[39m[1m[31me[1m[31mt[0m[39m[1m[31me[0m[39m[0m[39m [1m[31me[1m[31mr[0m[39m[1m[31mr[1m[31ma[0m[39m[1m[31ma[1m[31mt[0m[39m[1m[31mt[1m[31me[0m[39m [1m[31mt[0m[39m[0m[39m [1m[31ma[0m[39m[0m[39m [1m[31mr[0m[39m[0m[39m [1m[31me[0m[39m[0m[39m [0m[4m[33mg[0m[4m[33me[0m[4m[33mn[24m[39m[0m[39m [39m[4mg[39m[4me[24m[24m[39m [24m[32mg[39m[24m [39m [32ms[39m[4m[33ms[4m[33mc[24m[39m[24m[1m[31ms[24m[1m[31mc[1m[31mr[0m[39m[1m[31mr[1m[31mi[0m[39m[1m[31m...[39m[0m[33m[39m[33m[39m[33m[39m[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mscript[39m[K[33C[34m[2.1.0][39m[40D[1m[31ms[1m[31mc[1m[31mr[1m[31mi[1m[31mp[1m[31mt[1m[31m.[0m[39m[0m[32ms[0m[32mc[0m[32mr[0m[32mi[0m[32mp[0m[32mt[39m[0m[39m [1m[31ms[1m[31mc[1m[31mr[1m[31mi[1m[31mp[1m[31mt[1m[31m/[0m[39m[1m[31m/[1m[31mg[0m[39m[1m[31mg[1m[31me[0m[39m[1m[31me[1m[31mn[0m[39m[1m[31mn[1m[31me[0m[39m[1m[31me[1m[31mr[0m[39m[1m[31mr[1m[31ma[0m[39m[1m[31ma[1m[31mt[0m[39m[1m[31mt[1m[31me[0m[39m [1m[31mt[0m[39m[0m[39m [1m[31ma[0m[39m[0m[39m [1m[31mr[0m[39m[0m[39m [1m[31me[0m[39m[0m[39m [1m[31mn[0m[39m[0m[39m [1m[31me[0m[39m[0m[39m [1m[31mg[0m[39m[0m[39m [1m[31m/[0m[39m[0m[39m [0m[32ms[0m[32mc[0m[32mr[0m[32mi[0m[32mp[0m[32mt[39m[0m[39m [1m[31ms[1m[31mc[1m[31mr[1m[31mi[1m[31mp[0m[39m[39m [1m[31mi[0m[39m[0m[39m [1m[31mr[0m[39m[0m[39m [0m[4m[33ms[0m[4m[33mc[24m[39m[0m[39m [24m[32ms[39m[24m[39m [39m [32mr[39m[39m[4mr[4ma[24m[4m[33mr[4m[33ma[4m[33mi[24m[39m[24m[1m[31mr[24m[1m[31ma[24m[1m[31mi[1m[31ml[0m[39m[0m[32mr[0m[32ma[0m[32mi[0m[32ml[32ms[39m[1m[31mr[1m[31ma[1m[31mi[1m[31ml[1m[31ms[1m[31mg[0m[39m[0m[32mr[0m[32ma[0m[32mi[0m[32ml[0m[32ms[39m[0m[39m  [4mg[24m[4mg[4me[24m[4m[33mg[4m[33me[4m[33mn[24m[39m[24m[39mg[24m[39me[24m[39mnerate [4mc[24m[4mc[4mo[24m[4mo[4mn[24m[4m[33mc[4m[33mo[4m[33mn[4m[33mt[24m[39m[24m[39mc[24m[39mo[24m[39mn[24m[39mtroller [4m[33ms[24m[39m[4m[33ms[4m[33me[24m[39m[24m[39ms[24m[39meguro [4m[33mi[24m[39m[4m[33mi[4m[33mn[24m[39m[24m[39mi[24m[39mndex[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mrails[39m generate controller seguro index[K[1C[34m[2.1.0][39m[8D
+]2;rails]1;rails[1m[32m      create[0m  app/controllers/seguro_controller.rb
+[1m[32m       route[0m  get "seguro/index"
+[1m[37m      invoke[0m  erb
+[1m[32m      create[0m    app/views/seguro
+[1m[32m      create[0m    app/views/seguro/index.html.erb
+[1m[37m      invoke[0m  test_unit
+[1m[32m      create[0m    test/controllers/seguro_controller_test.rb
+[1m[37m      invoke[0m  helper
+[1m[32m      create[0m    app/helpers/seguro_helper.rb
+[1m[37m      invoke[0m    test_unit
+[1m[32m      create[0m      test/helpers/seguro_helper_test.rb
+[1m[37m      invoke[0m  assets
+[1m[37m      invoke[0m    coffee
+[1m[32m      create[0m      app/assets/javascripts/seguro.js.coffee
+[1m[37m      invoke[0m    scss
+[1m[32m      create[0m      app/assets/stylesheets/seguro.css.scss
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[39C[34m[2.1.0][39m[46D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[39C[34m[2.1.0][39m[46Drrails g resource usuario nome email pas[Ksword_di [Kggest --no-test-framework --no-assets --no-helper[A[6C[32mr[32ma[32mi[32ml[32ms[39m[1B[11D[?1l>[A[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mrails[39m g resource usuario nome email password_digest --no-test-framework --no-assets --no-helper[K
+]2;rails]1;rails/vagrant/tarefas/config/routes.rb:9:in `block (3 levels) in <top (required)>': undefined local variable or method `login' for #<ActionDispatch::Routing::Mapper:0xb95d10d8> (NameError)
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1288:in `block (2 levels) in collection'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:723:in `scope'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1287:in `block in collection'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1540:in `with_scope_level'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1286:in `collection'
+	from /vagrant/tarefas/config/routes.rb:5:in `block (2 levels) in <top (required)>'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1250:in `block in resources'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1549:in `block (2 levels) in resource_scope'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:723:in `scope'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1548:in `block in resource_scope'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1540:in `with_scope_level'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1547:in `resource_scope'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1249:in `resources'
+	from /vagrant/tarefas/config/routes.rb:4:in `block in <top (required)>'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:341:in `instance_exec'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:341:in `eval_block'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:319:in `draw'
+	from /vagrant/tarefas/config/routes.rb:1:in `<top (required)>'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.3/lib/active_support/dependencies.rb:223:in `load'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.3/lib/active_support/dependencies.rb:223:in `block in load'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.3/lib/active_support/dependencies.rb:214:in `load_dependency'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.3/lib/active_support/dependencies.rb:223:in `load'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:40:in `each'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:40:in `load_paths'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:16:in `reload!'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:26:in `block in updater'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.3/lib/active_support/file_update_checker.rb:75:in `call'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.3/lib/active_support/file_update_checker.rb:75:in `execute'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:27:in `updater'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:6:in `execute_if_updated'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/finisher.rb:69:in `block in <module:Finisher>'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/initializable.rb:30:in `instance_exec'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/initializable.rb:30:in `run'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/initializable.rb:55:in `block in run_initializers'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:345:in `each'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:345:in `call'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/initializable.rb:54:in `run_initializers'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application.rb:215:in `initialize!'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/railtie/configurable.rb:30:in `method_missing'
+	from /vagrant/tarefas/config/environment.rb:5:in `<top (required)>'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application.rb:189:in `require'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application.rb:189:in `require_environment!'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/commands.rb:44:in `<top (required)>'
+	from bin/rails:4:in `require'
+	from bin/rails:4:in `<main>'
+[1m[7m%[27m[with_scope_level'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1286:in `collection'
+	from /vagrant/tarefas/config/routes.rb:5:in `block (2 levels) in <top (required)>'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1250:in `block in resources'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1549:in `block (2 levels) in resource_scope'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:723:in `scope'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1548:in `block in resource_scope'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1540:in `with_scope_level'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1547:in `resource_scope'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/mapper.rb:1249:in `resources'
+	from /vagrant/tarefas/config/routes.rb:4:in `block in <top (required)>'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:341:in `instance_exec'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:341:in `eval_block'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:319:in `draw'
+	from /vagrant/tarefas/config/routes.rb:1:in `<top (required)>'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.3/lib/active_support/dependencies.rb:223:in `load'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.3/lib/active_support/dependencies.rb:223:in `block in load'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.3/lib/active_support/dependencies.rb:214:in `load_dependency'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.3/lib/active_support/dependencies.rb:223:in `load'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:40:in `each'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:40:in `load_paths'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:16:in `reload!'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:26:in `block in updater'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.3/lib/active_support/file_update_checker.rb:75:in `call'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.3/lib/active_support/file_update_checker.rb:75:in `execute'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:27:in `updater'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/routes_reloader.rb:6:in `execute_if_updated'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application/finisher.rb:69:in `block in <module:Finisher>'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/initializable.rb:30:in `instance_exec'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/initializable.rb:30:in `run'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/initializable.rb:55:in `block in run_initializers'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:345:in `each'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:345:in `call'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/initializable.rb:54:in `run_initializers'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application.rb:215:in `initialize!'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/railtie/configurable.rb:30:in `method_missing'
+	from /vagrant/tarefas/config/environment.rb:5:in `<top (required)>'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application.rb:189:in `require'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/application.rb:189:in `require_environment!'
+	from /home/vagrant/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.3/lib/rails/commands.rb:44:in `<top (required)>'
+	from bin/rails:4:in `require'
+	from bin/rails:4:in `<main>'
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[39C[34m[2.1.0][39m[46D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[39C[34m[2.1.0][39m[46Drrake db:migrat[14D[32mr[32ma[32mk[32me[39m[10Ce[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mrake[39m db:migrate[K[24C[34m[2.1.0][39m[31D
+]2;noglob]1;noglobrake aborted!
+undefined local variable or method `login' for #<ActionDispatch::Routing::Mapper:0xb92b064c>
+/vagrant/tarefas/config/routes.rb:9:in `block (3 levels) in <top (required)>'
+/vagrant/tarefas/config/routes.rb:5:in `block (2 levels) in <top (required)>'
+/vagrant/tarefas/config/routes.rb:4:in `block in <top (required)>'
+/vagrant/tarefas/config/routes.rb:1:in `<top (required)>'
+/vagrant/tarefas/config/environment.rb:5:in `<top (required)>'
+Tasks: TOP => db:migrate => environment
+(See full trace by running task with --trace)
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[39C[34m[2.1.0][39m[46D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[39C[34m[2.1.0][39m[46D[32mg[39m[32mg[32mi[39m[32mg[32mi[32mt[39m [4ma[24m[4m[33ma[4m[33md[24m[39m[24m[39ma[24m[39mdd [4m.[24m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[
