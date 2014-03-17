@@ -11,8 +11,8 @@ class UsuariosController < ApplicationController
   end
 
   def update
-   Tarefa.update nome: params[:nome], password_digest: params[:password_digest]
-    redirect_to tarefas_path
+    Usuario.update nome: params[:nome], email: params[:email], password_digest: params[:password_digest]
+    redirect_to usuarios_path
   end
 
   def destroy
@@ -21,4 +21,15 @@ class UsuariosController < ApplicationController
     redirect_to usuarios_path
   end
 
+  def edit
+  	@usuario = Usuario.find params[:id]
+  	render :new
+  end
+
+  def create
+  	@usuario = new Usuario
+  	render :new
+  end
 end
+
+

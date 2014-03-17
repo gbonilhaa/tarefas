@@ -12,6 +12,7 @@ class TarefasController < ApplicationController
   def secure?
     true
   end /
+  
   def login
     login
   end

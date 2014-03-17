@@ -1,25 +1,35 @@
-<h3>
-  Usuários cadastrados
+
+
+
+  <div class="container">
+  <h3>
+  Lista de Usuários
 </h3>
-<table class="table table-hover">
-  <thead>
-  <tr>
-    <th>Id</th>
-    <th>Nome</th>
-    <th>Email</th>
-  </tr>
-  </thead>
-  <tbody>
-  <% for usuario in @usuarios %>
-      <tr>
-        <td><%= usuario.id %></td>
-        <td><%= usuario.nome %></td>
-        <td><%= usuario.email %></td>
-        <td><a href="<%= usuario_path usuario %>"
-                data-method="delete"
-                data-confirm="Tem Certeza?"
-                class="destroy">excluir</a></td>
-      </tr>
-  <% end %>
-  </tbody>
-</table>
+  <table class="table table-hover">
+    <thead>
+    <tr>
+      <th>Id</th>
+      <th>Nome</th>
+      <th>Email</th>
+    </tr>
+    </thead>
+
+    <tbody>
+      <% for usuario in @usuarios %>
+        <tr>
+          <td><%= usuario.id %></td>
+          <td><%= usuario.nome %></td>
+          <td><%= usuario.email %></td>
+
+          <td><a href="<%= edit_usuario_path usuario %>">Editar</a></td>
+
+          <td><a href="<%= usuario_path usuario %>"
+                  data-method="delete"
+                  data-confirm="Tem Certeza?"
+                  class="destroy">Excluir X</a></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+

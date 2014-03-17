@@ -3,7 +3,7 @@ Tarefas::Application.routes.draw do
   # get "login/login"
   
   resources :usuarios
-
+  
   resources :tarefas do
     collection do
        get 'ativas'
