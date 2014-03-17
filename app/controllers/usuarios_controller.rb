@@ -1,12 +1,13 @@
 class UsuariosController < ApplicationController
+
   def index
- 	 @usuarios = Usuario.all
- 	 render :index
+    @usuarios = Usuario.all
+    render :index
   end
 
   def create
     Usuario.create nome: params[:nome], email: params[:email], password_digest: params[:password_digest]
-    redirect_to :back
+    redirect_to usuarios_path
   end
 
   def update
@@ -19,4 +20,5 @@ class UsuariosController < ApplicationController
     usuario.destroy
     redirect_to usuarios_path
   end
+
 end

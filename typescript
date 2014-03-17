@@ -129,54 +129,6 @@ After doing this, you may fix the identity used for this commit with:
     git commit --amend --reset-author
 
  2 files changed, 10 insertions(+), 8 deletions(-)
-[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ 39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mgit[39m add [4m.[24m[K[30C[34m[2.1.0][39m[37D
-]2;noglob]1;noglobgi[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefast c[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [K[42C[34m[2.1.0][39m[49Dggit [32mg[32mi[32mt[39m [4mc[24m[4mc[4mo[24m[4mc[24m[24m [24m [32mg[32mi[39m[39m [32mg[39m[39m [39m [32mg[39m[32mg[32mi[39m[32mg[32mi[32mt[39m [4mc[24m[4mc[4mo[24m[4m[33mc[4m[33mo[4m[33mm[24m[39m[24m[39mc[24m[39mo[24m[39mmmit [4m[33m=[24m[39m[4m[33m=[4m[33mm[24m[39m[4m[33m=[24m[39m[24m[39m [24m[39m -m [4m[33m"[24m[39m[4m[33m"[4m[33mc[24m[39m[24m[39m"[24m[39mcriando tabelas usuario/log[Kin[30D[33m"[33mc[33mr[33mi[33ma[33mn[33md[33mo[33m [33mt[33ma[33mb[33me[33ml[33ma[33ms[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33m/[33ml[33mo[33mg[33mi[33mn[33m"[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [32mgit[39m commit -m [33m"criando tabelas usuario/login"[39m[K
-]2;noglob]1;noglob[master 96bef6a] criando tabelas usuario/login
- Committer: vagrant <vagrant@precise32.(none)>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly:
-
-    git config --global user.name "Your Name"
-    git config --global user.email you@example.com
-
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 22 files changed, 386 insertions(+), 14 deletions(-)
- create mode 100644 app/assets/javascripts/login.js.coffee
- create mode 100644 app/assets/javascripts/seguro.js.coffee
- create mode 100644 app/assets/stylesheets/login.css.scss
- create mode 100644 app/assets/stylesheets/seguro.css.scss
- create mode 100644 app/controllers/login_controller.rb
- create mode 100644 app/controllers/usuarios_controler.rb
- create mode 100644 app/helpers/login_helper.rb
- create mode 100644 app/helpers/seguro_helper.rb
- create mode 100644 app/views/login/login.html.erb
- create mode 100644 app/views/usuarios/index.html.erb
- create mode 100644 app/views/usuarios/usuarios.html.rb
- create mode 100644 test/controllers/login_controller_test.rb
- create mode 100644 test/controllers/seguro_controller_test.rb
- create mode 100644 test/helpers/login_helper_test.rb
- create mode 100644 test/helpers/seguro_helper_test.rb
- create mode 100644 typescript
-[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m)$ [K[45C[34m[2.1.0][39m[52D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m)$ [K[45C[34m[2.1.0][39m[52D[32mg[39m[32mg[32mt[39m[32mg[39m[39m [32mg[32mi[39m[32mg[32mi[32mt[39m [4ma[24m[4m[33ma[4m[33md[24m[39m[24m[39ma[24m[39mdd [4m.[24m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m)$ [32mgit[39m add [4m.[24m[K[36C[34m[2.1.0][39m[43D
-]2;noglob]1;noglob[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [K[42C[34m[2.1.0][39m[49D[32mg[39m[32mg[32mi[39m[32mg[32mi[32mt[39m [4mc[24m[4mc[4mo[24m[4m[33mc[4m[33mo[4m[33mm[24m[39m[24m[39mc[24m[39mo[24m[39mmmit -, m [4m[33m"[24m[39m[4m[33m"[4m[33ma[24m[39m[24m[39m"[24m[39majusa ta campos para salva us[Kuario[33D[33m"[33ma[33mj[33mu[33ms[33mt[33ma[33m [33mc[33ma[33mm[33mp[33mo[33ms[33m [33mp[33ma[33mr[33ma[33m [33ms[33ma[33ml[33mv[33ma[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33m"[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [32mgit[39m commit -m [33m"ajusta campos para salva usuario"[39m[K
-]2;noglob]1;noglob[master 2ae25b6] ajusta campos para salva usuario
- Committer: vagrant <vagrant@precise32.(none)>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly:
-
-    git config --global user.name "Your Name"
-    git config --global user.email you@example.com
-
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 2 files changed, 10 insertions(+), 8 deletions(-)
 [1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[32mg[39m[32mg[32mi[39m[32mg[32mi[32mt[39m [4ma[24m[4m[33ma[4m[33md[24m[39m[24m[39ma[24m[39mdd [4m.[24m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [32mgit[39m add [4m.[24m[K[33C[34m[2.1.0][39m[40D
 ]2;noglob]1;noglob[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [K[42C[34m[2.1.0][39m[49D[32mg[39m[32mg[32mi[39m[32mg[32mi[32mt[39m [4mc[24m[4mc[4mo[24m[4m[33mc[4m[33mo[4m[33mm[24m[39m[24m[39mc[24m[39mo[24m[39mmmit -m [4m[33m"[24m[39m[24m[39m" adicio nou listar usuarios[1C[1C[1C[1C[1C[1C[26D[33m"[33m [33ma[33md[33mi[33mc[33mi[33mn[33mo[33mu[33m [33ml[33mi[33ms[33mt[33ma[33mr[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33ms[33m"[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [32mgit[39m commit -m [33m" adicinou listar usuarios"[39m[K[1C[34m[2.1.0][39m[8D
 ]2;noglob]1;noglob[master 99f0faf]  adicinou listar usuarios
@@ -190,4 +142,680 @@ You can suppress this message by setting them explicitly:
 
 After doing this, you may fix the identity used for this commit with:
 
-    git commit --amend --reset
+    git commit --amend --reset-author
+
+ 4 files changed, 114 insertions(+), 95 deletions(-)
+ rewrite app/views/usuarios/index.html.erb (99%)
+ rename app/views/usuarios/{index.html.erb => new.html.erb} (100%)
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[32mgit[39m commit -m [33m" adicinou listar usuarios"[39m[37Dadd [4m.[24m     [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [32D[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [32mgit[39m add [4m.[24m[K[33C[34m[2.1.0][39m[40D
+]2;noglob]1;noglob[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [K[42C[34m[2.1.0][39m[49D[32mgit[39m add [4m.[24mcomm[24mit -m [33m" adicinou listar usuarios"[39m[33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33ma[33m"[39m[33md[33m"[39m[33md[33m"[39m[33m [33m"[39m[33mr[33m"[39m[33me[33m"[39m[33mm[33m"[39m[33mo[33m"[39m[33mv[33m"[39m[33me[33m"[39m[33m [33m"[39m[33mu[33m"[39m[33ms[33m"[39m[33mu[33m"[39m[33ma[33m"[39m[33mr[33m"[39m[33mi[33m"[39m[33mo[33m"[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[32m●[39m)$ [32mgit[39m commit -m [33m" add remove usuario"[39m[K[7C[34m[2.1.0][39m[15D
+]2;noglob]1;noglob[master 1f72fb5]  add remove usuario
+ Committer: vagrant <vagrant@precise32.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 68 insertions(+), 25 deletions(-)
+ create mode 100644 app/controllers/usuarios_controller.rb
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m)$ [K[45C[34m[2.1.0][39m[52D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m)$ [K[45C[34m[2.1.0][39m[52D[32mg[39m[32mg[32mi[39m[32mg[32mi[32mt[39m [4mr[24m[4mr[4me[24m[4m[33mr[4m[33me[4m[33mm[24m[39m[24m[39mr[24m[39me[24m[39mmote [4ma[24m[4m[33ma[4m[33md[24m[39m[24m[39ma[24m[39mdd [4m[33mo[24m[39m[4m[33mo[4m[33mr[24m[39m[24m[39mo[24m[39mri[1m[31m...[39m[0m[33m[39m[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m)$ [32mgit[39m remote add origin[1m [0m[K[23C[34m[2.1.0][39m[30D[0m [4mg[24m[4m[33mg[4m[33mi[24m[39m[4m[33mi[4m[33mt[24m[39m[1m[31m...[39m[0m[31m[39m[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m)$ git remote add origin git[K[20C[34m[2.1.0][39m[27D[31m[39m
+[J [31m-- no matches found --[39m[A[0m[27m[24m[39m[48Cgit remote add origin git[K[20C[34m[2.1.0][39m[39m[27D[25D[32mg[32mi[32mt[39m[22C@gi[1m[31m...[39m[0m[31m[39m[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m)$ git remote add origin git@gi[K[17C[34m[2.1.0][39m[24D[31m[39m
+[J [31m-- no matches found --[39m[A[0m[27m[24m[39m[48Cgit remote add origin git@gi[K[17C[34m[2.1.0][39m[39m[24D[28D[32mg[32mi[32mt[39m[25Cthub.com:gbonilha[Ka/tarefa [Kss.gif t[?1l>[A[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m)$ [32mgit[39m remote add origin git@github.com:gbonilhaa/tarefas.git[K
+]2;noglob]1;noglobfatal: remote origin already exists.
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49Dggit remote add origin git@github.com:gboni[Klhaa/tar [Keefas.gi[A[44C[32mg[32mi[32mt[39m[1B[47Dt[7m^Z[27m[27m [27m       e [K[A[100C[K[1B[K[A[100C       [K[1C[34m[2.1.0][39m[8D               [4m[33mg[4m[33mi[4m[33mt[24m[39m [4m[33mi[24m[39m[24m[39m [39m[4mg[24m[24m[39m [24m    [4m[33mo[4m[33mr[24m[39m [4m[33mo[24m[39m[24m[39m [24m[39m [4m[33ma[4m[33md[24m[39m [39m[4ma[24m[24m[39m [24m   [4m[33mr[4m[33me[4m[33mm[24m[39m [39m[4mr[39m[4me[24m[24m[39m [4mr[24m[24m [24m [32mg[32mi[39m[39m [32mg[39m[39m [39m [32mgit[39m remote add origin git@github.com:gbonilhaa/tarefas.git[K[A[47Ccommit -m [33m"[33m [33ma[33md[33md[33m [33mr[33me[33mm[33mo[33mv[33me[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33m"[39m[K[7C[34m[2.1.0][39m[1B[K[A[86C[31Dremote add[39m [39mo[39mr[39mi[39mg[39mi[39mn[39m [39mg[39mi[39mt[39m@[39mg[39mi[39mt[39mh[39mu[39mb[39m.[39mc[39mom:gbonilhaa/tarefas.git[K[A[43C[K[42C[34m[2.1.0][39m[1B[K[A[51C[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49Dggit remote add origin git@github.com:gboni[Klhaa/tar [Keefas.gi[A[44C[32mg[32mi[32mt[39m[1B[47Dt[?1l>[A[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [32mgit[39m remote add origin git@github.com:gbonilhaa/tarefas.git[K
+]2;noglob]1;noglobfatal: remote origin already exists.
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[32ms[39m[32ms[32mu[39m[1m[31ms[1m[31mu[1m[31md[0m[39m[0m[4m[32ms[0m[4m[32mu[0m[4m[32md[4m[32mo[24m[39m git remote add origin git@github.com:[Kgbonilha [Kaa/tarefas.gi[A[44C[32mg[32mi[32mt[39m[1B[47Dt[?1l>[A[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [4m[32msudo[24m[39m [32mgit[39m remote add origin git@github.com:gbonilhaa/tarefas.git[K
+]2;git]1;gitfatal: remote origin already exists.
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49Dggit remote add origin https://gbonilhaa@bi[Ktbucket. [Koorg/gbonilhaa/tarefas.gi[A[27C[32mg[32mi[32mt[39m[1B[30Dt[?1l>[A[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [32mgit[39m remote add origin https://gbonilhaa@bitbucket.org/gbonilhaa/tarefas.git[K
+]2;noglob]1;noglobfatal: remote origin already exists.
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[32mgit[39m remote add origin https://gbonilhaa@bitbucket.org/gbonilhaa/tarefas.git[K[?1l>[A[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [32mgit[39m remote add origin https://gbonilhaa@bitbucket.org/gbonilhaa/tarefas.git[K
+]2;noglob]1;noglobfatal: remote origin already exists.
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[32ms[39m[32ms[32mu[39m[1m[31ms[1m[31mu[1m[31md[0m[39m[0m[4m[32ms[0m[4m[32mu[0m[4m[32md[4m[32mo[24m[39m git remote add origin https://gbonilh[Kaa@bitbu [Kccket.org/gbonilhaa/tarefas.gi[A[27C[32mg[32mi[32mt[39m[1B[30Dt[?1l>[A[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [4m[32msudo[24m[39m [32mgit[39m remote add origin https://gbonilhaa@bitbucket.org/gbonilhaa/tarefas.git[K
+]2;git]1;gitfatal: remote origin already exists.
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[4mv[24m[24m[32mv[32mi[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [32mvi[39m[K[40C[34m[2.1.0][39m[47D
+]2;vi]1;viError detected while processing /home/vagrant/.vimrc:[?25l[J
+line   28:[J
+E319: Sorry, the command is not available in this version: syntax on[J
+line   34:[J
+E319: Sorry, the command is not available in this version: let mapleader=","[J
+line   68:[J
+E319: Sorry, the command is not available in this version: filetype plugin on[J
+line   69:[J
+E319: Sorry, the command is not available in this version: filetype indent on[J
+line   72:[J
+E474: Invalid argument: listchars=tab:\ \ ,trail:·[J
+line   79:[J
+E518: Unknown option: foldmethod=indent[J
+line   80:[J
+E518: Unknown option: foldnestmax=3[J
+line   81:[J
+E518: Unknown option: nofoldenable[J
+Error detected while processing /home/vagrant/.yadr/vim/settings.vim:[J
+line    2:[J
+E319: Sorry, the command is not available in this version: for fpath in split(globpath('~/.vim/settings', '*.vim'), '\n')[J
+line    3:[J
+E319: Sorry, the command is not available in this version:   exe 'source' fpath[J
+line    4:[J
+E319: Sorry, the command is not available in this version: endfor[J
+Press ENTER or type command to continue[?12l[?25h[?1049h[?1h=[1;21r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[1;1H[33m      1 [m[1m[34m$
+~                                                                                                    [3;1H~                                                                                                    [4;1H~                                                                                                    [5;1H~                                                                                                    [6;1H~                                                                                                    [7;1H~                                                                                                    [8;1H~                                                                                                    [9;1H~                                                                                                    [10;1H~                                                                                                    [11;1H~                                                                                                    [12;1H~                                                                                                    [13;1H~                                                                                                    [14;1H~                                                                                                    [15;1H~                                                                                                    [16;1H~                                                                                                    [17;1H~                                                                                                    [18;1H~                                                                                                    [19;1H~                                                                                                    [20;1H~                                                                                                    [m[5;43HVIM - Vi IMproved[7;44Hversion 7.3.429[8;39Hby Bram Moolenaar et al.[9;24HModified by pkg-vim-maintainers@lists.alioth.debian.org[10;30HVim is open source and freely distributable[12;37HBecome a registered Vim user![13;28Htype  :help register[34m<Enter>[m   for information [15;28Htype  :q[34m<Enter>[m               to exit         [16;28Htype  :help[34m<Enter>[m  or  [34m<F1>[m  for on-line help[17;28Htype  :help version7[34m<Enter>[m   for version info[1;9H[?12l[?25h[?5h[?5l[?5h[?5l[?5h[?5l[?25l[21;1H:[?12l[?25hq[?25l[?1l>[?12l[?25h[?1049l
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[4mv[24m[24m[32mv[32mi[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [32mvi[39m[K[40C[34m[2.1.0][39m[47D
+]2;vi]1;viError detected while processing /home/vagrant/.vimrc:[?25l[J
+line   28:[J
+E319: Sorry, the command is not available in this version: syntax on[J
+line   34:[J
+E319: Sorry, the command is not available in this version: let mapleader=","[J
+line   68:[J
+E319: Sorry, the command is not available in this version: filetype plugin on[J
+line   69:[J
+E319: Sorry, the command is not available in this version: filetype indent on[J
+line   72:[J
+E474: Invalid argument: listchars=tab:\ \ ,trail:·[J
+line   79:[J
+E518: Unknown option: foldmethod=indent[J
+line   80:[J
+E518: Unknown option: foldnestmax=3[J
+line   81:[J
+E518: Unknown option: nofoldenable[J
+Error detected while processing /home/vagrant/.yadr/vim/settings.vim:[J
+line    2:[J
+E319: Sorry, the command is not available in this version: for fpath in split(globpath('~/.vim/settings', '*.vim'), '\n')[J
+line    3:[J
+E319: Sorry, the command is not available in this version:   exe 'source' fpath[J
+line    4:[J
+E319: Sorry, the command is not available in this version: endfor[J
+Press ENTER or type command to continue[?12l[?25h[?1049h[?1h=[1;21r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[1;1H[33m      1 [m[1m[34m$
+~                                                                                                    [3;1H~                                                                                                    [4;1H~                                                                                                    [5;1H~                                                                                                    [6;1H~                                                                                                    [7;1H~                                                                                                    [8;1H~                                                                                                    [9;1H~                                                                                                    [10;1H~                                                                                                    [11;1H~                                                                                                    [12;1H~                                                                                                    [13;1H~                                                                                                    [14;1H~                                                                                                    [15;1H~                                                                                                    [16;1H~                                                                                                    [17;1H~                                                                                                    [18;1H~                                                                                                    [19;1H~                                                                                                    [20;1H~                                                                                                    [m[5;43HVIM - Vi IMproved[7;44Hversion 7.3.429[8;39Hby Bram Moolenaar et al.[9;24HModified by pkg-vim-maintainers@lists.alioth.debian.org[10;30HVim is open source and freely distributable[12;37HBecome a registered Vim user![13;28Htype  :help register[34m<Enter>[m   for information [15;28Htype  :q[34m<Enter>[m               to exit         [16;28Htype  :help[34m<Enter>[m  or  [34m<F1>[m  for on-line help[17;28Htype  :help version7[34m<Enter>[m   for version info[1;9H[?12l[?25h[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?25l[21;1H:[?12l[?25hq[?25l[?1l>[?12l[?25h[?1049l
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[32mr[39m[39m[4mr[4ma[24m[4mr[4ma[4mk[24m[24m[32mr[24m[32ma[24m[32mk[32me[39m [4mr[24m[4m[33mr[4m[33mo[24m[39m[24m[39mr[24m[39mouts[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [32mrake[39m routs[K[32C[34m[2.1.0][39m[39D
+]2;noglob]1;noglobrake aborted!
+Don't know how to build task 'routs'
+
+(See full trace by running task with --trace)
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[32mrake[39m routses[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [32mrake[39m routes[K[31C[34m[2.1.0][39m[39D
+]2;noglob]1;noglob                    Prefix Verb   URI Pattern                           Controller#Action
+                  usuarios GET    /usuarios(.:format)                   usuarios#index
+                           POST   /usuarios(.:format)                   usuarios#create
+               new_usuario GET    /usuarios/new(.:format)               usuarios#new
+              edit_usuario GET    /usuarios/:id/edit(.:format)          usuarios#edit
+                   usuario GET    /usuarios/:id(.:format)               usuarios#show
+                           PATCH  /usuarios/:id(.:format)               usuarios#update
+                           PUT    /usuarios/:id(.:format)               usuarios#update
+                           DELETE /usuarios/:id(.:format)               usuarios#destroy
+            ativas_tarefas GET    /tarefas/ativas(.:format)             tarefas#ativas
+        concluidas_tarefas GET    /tarefas/concluidas(.:format)         tarefas#concluidas
+destroy_concluidas_tarefas DELETE /tarefas/destroy_concluidas(.:format) tarefas#destroy_concluidas
+             toggle_tarefa PATCH  /tarefas/:id/toggle(.:format)         tarefas#toggle
+                   tarefas GET    /tarefas(.:format)                    tarefas#index
+                           POST   /tarefas(.:format)                    tarefas#create
+                new_tarefa GET    /tarefas/new(.:format)                tarefas#new
+               edit_tarefa GET    /tarefas/:id/edit(.:format)           tarefas#edit
+                    tarefa GET    /tarefas/:id(.:format)                tarefas#show
+                           PATCH  /tarefas/:id(.:format)                tarefas#update
+                           PUT    /tarefas/:id(.:format)                tarefas#update
+                           DELETE /tarefas/:id(.:format)                tarefas#destroy
+                      root GET    /                                     tarefas#index
+[1m[7m%[27m[1m[0m                                                                                                     ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[42C[34m[2.1.0][39m[49D[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[133C[34m[2.1.0][39m[140D[32mr[39m[39m[4mr[4ma[24m[4mr[4ma[4mk[24m[24m[32mr[24m[32ma[24m[32mk[32me[39m [4md[24m[4md[4mb[24m[4m[33md[4m[33mb[4m[33mm[24m[39m[24m[39md[24m[39mb[24m[39mmigr  [4m[33md[4m[33mb[4m[33mm[24m[39m [39m[4md[39m[4mb[24m[24m[39m [4m[33md[4m[33mb[4m[33m:[24m[39m[24m[39md[24m[39mb[24m[39m:migrate[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [32mrake[39m db:migrate[K[118C[34m[2.1.0][39m[125D
+]2;noglob]1;noglob[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[133C[34m[2.1.0][39m[140D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[133C[34m[2.1.0][39m[140D
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[133C[34m[2.1.0][39m[140D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [K[133C[34m[2.1.0][39m[140D[32mrake[39m db:migrate[10Droutes    s [10D[32mv[32mi[39m[39m [39m       [8D[4m[32ms[4m[32mu[4m[32mdo[24m[39m [32mgit[39m remote add origin https://gbonilhaa@bitbucket.org/gbonilhaa/tarefas.git[80D[24m[32mg[24m[32mi[24m[32mt[39m[24m[39m r[39me[39mm[39mote add origin https://gbonilhaa@bitbucket.org/gbonilhaa/tarefas.git     [75D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mg[32mi[32mt[39m remote add origin git@github.com:gbonilhaa/tarefas.git            [12D[63D[24m[32mg[24m[32mi[24m[32mt[39m[24m[39m r[39me[39mm[39mote add origin git@github.com:gbonilhaa/tarefas.git     [54Dcommit -m [33m"[33m [33ma[33md[33md[33m [33mr[33me[33mm[33mo[33mv[33me[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33m"[39m                       [23D[31Dadd [4m.[24m     [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [26Dcomm[24mit -m [33m" adicinou listar usuarios"[39m[26D[33ma[33mj[33mu[33ms[33mt[33ma[33m [33mc[33ma[33mm[33mp[33mo[33ms[33m [33mp[33ma[33mr[33ma[33m [33ms[33ma[33ml[33mv[33ma[33m [33mu[33msuario"[39m[33D[33mc[33mr[33mi[33ma[33mn[33md[33mo[33m [33mt[33ma[33mb[33me[33ml[33ma[33ms[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33m/[33ml[33mo[33mg[33mi[33mn[33m"[39m[39m [39m [39m [45D[32mr[32ma[32mi[32ml[32ms[39m g resour[39mc[39me[39m [39mu[39ms[39mu[39ma[39mr[39mi[39mo[39m [39mn[39mo[39mm[39me[39m [39me[39mm[39ma[39mi[39ml[39m [39mp[39ma[39ms[39ms[39mw[39mo[39mr[39md[39m_digest --no-test-framework --no-assets --no-helper[95D[32mg[32mi[32mt[39m[39m [39mcommit -m [33m"[33mc[33mr[33mi[33ma[33mn[33md[33mo[33m [33mt[33ma[33mb[33me[33ml[33ma[33ms[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33m/[33ml[33mo[33mg[33mi[33mn[33m"[39m                                                  [50D[30D[33ma[33mj[33mu[33ms[33mt[33ma[33m [33mc[33ma[33mm[33mp[33mo[33ms[33m [33mp[33ma[33mr[33ma[33m [33ms[33ma[33ml[33mv[33ma[33m [33mu[33ms[33mu[33ma[33mr[33mio"[39m[33D[33m [33ma[33md[33mi[33mc[33mi[33mn[33mo[33mu[33m [33ml[33mi[33ms[33mt[33ma[33mr[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33ms[33m"[39m[39m [39m [39m [39m [39m [39m [39m [37Dadd [4m.[24m     [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [32Dcomm[24mit -m [33m" add remove usuario"[39m[31Dremote add[39m [39mo[39mr[39mi[39mg[39mi[39mn[39m [39mg[39mi[39mt[39m@[39mg[39mi[39mt[39mh[39mu[39mb[39m.[39mc[39mom:gbonilhaa/tarefas.git[58D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mg[32mi[32mt[39m remote add origin git@github.com:gbonilhaa/tarefas.git[63D[24m[32mg[24m[32mi[24m[32mt[39m[24m[39m r[39me[39mm[39mote add origin https://gbonilhaa@bitbucket.org/gbonilhaa/tarefas.git[75D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mg[32mi[32mt[39m remote add origin https://gbonilhaa@bitbucket.org/gbonilhaa/tarefas.git[80D[24m[32mv[24m[32mi[39m[24m[39m [24m[39m  [39m [39m [39m                                                                         [78D[32mr[32ma[32mke[39m routsesdb:migrate[15D[39m [39m [39m [39m            [15D[32mrake[39m db:migrate[10Droutes    s [10D[32mv[32mi[39m[39m [39m       [8D[4m[32ms[4m[32mu[4m[32mdo[24m[39m [32mgit[39m remote add origin https://gbonilhaa@bitbucket.org/gbonilhaa/tarefas.git[80D[24m[32mg[24m[32mi[24m[32mt[39m[24m[39m r[39me[39mm[39mote add origin https://gbonilhaa@bitbucket.org/gbonilhaa/tarefas.git     [75D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mg[32mi[32mt[39m remote add origin git@github.com:gbonilhaa/tarefas.git            [12D[63D[24m[32mg[24m[32mi[24m[32mt[39m[24m[39m r[39me[39mm[39mote add origin git@github.com:gbonilhaa/tarefas.git     [54Dcommit -m [33m"[33m [33ma[33md[33md[33m [33mr[33me[33mm[33mo[33mv[33me[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33m"[39m                       [23D[31Dadd [4m.[24m     [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [26Dcomm[24mit -m [33m" adicinou listar usuarios"[39m[26D[33ma[33mj[33mu[33ms[33mt[33ma[33m [33mc[33ma[33mm[33mp[33mo[33ms[33m [33mp[33ma[33mr[33ma[33m [33ms[33ma[33ml[33mv[33ma[33m [33mu[33msuario"[39m[33D[33mc[33mr[33mi[33ma[33mn[33md[33mo[33m [33mt[33ma[33mb[33me[33ml[33ma[33ms[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33m/[33ml[33mo[33mg[33mi[33mn[33m"[39m[39m [39m [39m [45D[32mr[32ma[32mi[32ml[32ms[39m g resour[39mc[39me[39m [39mu[39ms[39mu[39ma[39mr[39mi[39mo[39m [39mn[39mo[39mm[39me[39m [39me[39mm[39ma[39mi[39ml[39m [39mp[39ma[39ms[39ms[39mw[39mo[39mr[39md[39m_digest --no-test-framework --no-assets --no-helper[88Denerate controller seguro index                                                         [57D[38D[32ms[32mc[32mr[32mi[32mp[32mt[39m                                [32D[32mr[32ma[32mi[32ml[32ms[39m[39m generate controller login login[37D[1m[31m-[1m[31m-[1m[31mh[1m[31me[1m[31ml[1m[31mp[0m[39m                               [31D[1m[31mg[1m[31me[1m[31mn[1m[31me[1m[31mr[1m[31ma[1m[31mte[0m[39m controller login login[31D[0m[32mr[0m[32ma[0m[32mi[0m[32ml[0m[32ms[39m[0m[39m [0m[39ms[0m[39merver -d                [16D[15D[32mc[32md[39m[39m [39mt[39marefas     [10D[32mr[32ma[32mi[32ml[32ms[39m server -d[15D[1m[31mg[1m[31me[1m[31mn[1m[31me[1m[31mr[1m[31ma[1m[31mt[1m[31me[0m[39m controller login login[31D[1m[31m-[1m[31m-[1m[31mh[1m[31me[1m[31ml[1m[31mp[0m[39m[0m[39m [0m[39m                        [25D[0m[32mr[0m[32ma[0m[32mi[0m[32ml[0m[32ms[39m[0m[39m generate controller login login[37D[32ms[32mc[32mr[32mi[32mp[32mt[39m                               [31D[32mr[32ma[32mi[32ml[32ms[39m[39m generate controller seguro index[31D resource usuario nome email password_digest --no-test-framework --no-assets --no-helper[95D[32mg[32mi[32mt[39m[39m [39mcommit -m [33m"[33mc[33mr[33mi[33ma[33mn[33md[33mo[33m [33mt[33ma[33mb[33me[33ml[33ma[33ms[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33m/[33ml[33mo[33mg[33mi[33mn[33m"[39m                                                  [50D[30D[33ma[33mj[33mu[33ms[33mt[33ma[33m [33mc[33ma[33mm[33mp[33mo[33ms[33m [33mp[33ma[33mr[33ma[33m [33ms[33ma[33ml[33mv[33ma[33m [33mu[33ms[33mu[33ma[33mr[33mio"[39m[33D[33m [33ma[33md[33mi[33mc[33mi[33mn[33mo[33mu[33m [33ml[33mi[33ms[33mt[33ma[33mr[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33ms[33m"[39m[39m [39m [39m [39m [39m [39m [39m [37Dadd [4m.[24m     [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [32Dcomm[24mit -m [33m" add remove usuario"[39m[31Dremote add[39m [39mo[39mr[39mi[39mg[39mi[39mn[39m [39mg[39mi[39mt[39m@[39mg[39mi[39mt[39mh[39mu[39mb[39m.[39mc[39mom:gbonilhaa/tarefas.git[58D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mg[32mi[32mt[39m remote add origin git@github.com:gbonilhaa/tarefas.git[63D[24m[32mg[24m[32mi[24m[32mt[39m[24m[39m r[39me[39mm[39mote add origin https://gbonilhaa@bitbucket.org/gbonilhaa/tarefas.git[75D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mg[32mi[32mt[39m remote add origin https://gbonilhaa@bitbucket.org/gbonilhaa/tarefas.git[80D[24m[32mv[24m[32mi[39m[24m[39m [24m[39m  [39m [39m [39m                                                                         [78D[32mr[32ma[32mke[39m routsesdb:migrate[15D[39m [39m [39m [39m            [15D^[7m[4m[33m^[7m[4m[33m?[27m[24m[39m[27m[24m[39m [27m[24m[39m ggit remote add origin git@github.com:gbonilhaa/tarefas.gi[57D[32mg[32mi[32mt[39m[54Ct[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m)$ [32mgit[39m remote add origin git@github.com:gbonilhaa/tarefas.git[K[75C[34m[2.1.0][39m[82D
+]2;noglob]1;noglobfatal: remote origin already exists.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137Dggit push -u origin maste[24D[32mg[32mi[32mt[39m[21Cr[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mgit[39m push -u origin master[K[105C[34m[2.1.0][39m[112D
+]2;noglob]1;noglobPassword for 'https://gbonilhaa@bitbucket.org': 
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[32mc[39m[4m[33mc[4m[33ma[24m[39m[24m[32mc[24m[32ma[32mt[39m [4m.[24m[4m.[4mg[24m[4mg[4mi[24m[4mi[4mt[24m[4mt[4m/[24m[4m/[4mc[24m[4mc[4mo[24m[4mo[4mn[24m[1m[31m...[39m[0m[33m[39m[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mcat[39m [4m.git/config[24m[1m [0m[K[114C[34m[2.1.0][39m[121D[0m [?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mcat[39m [4m.git/config[24m[K[115C[34m[2.1.0][39m[122D
+]2;cat]1;cat[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://gbonilhaa@bitbucket.org/gbonilhaa/tarefa-2.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[prompt]
+	showinfo = true
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[32mcat[39m [4m.git/config[24m[15D[32mg[32mi[2C[24m[39mp[24mu[24ms[24mh[24m [24m-[24mu[24m [24mo[24mr[24migin master[21Dremote add origin git@github.com:gbonilhaa/tarefas.git[1C git@github.com:gbonilhaa/tarefas.git [38D git@github.com:gbonilhaa/tarefas.git [38D git@github.com:gbonilhaa/tarefas.git [38D git@github.com:gbonilhaa/tarefas.git [38D git@github.com:gbonilhaa/tarefas.git [38D git@github.com:gbonilhaa/tarefas.git [38Dg git@github.com:gbonilhaa/tarefas.git[37Di git@github.com:gbonilhaa/tarefas.git[37Dt git@github.com:gbonilhaa/tarefas.git[37Dh git@github.com:gbonilhaa/tarefas.git[37Du git@github.com:gbonilhaa/tarefas.git[37Db git@github.com:gbonilhaa/tarefas.git[37D[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mgit[39m remote add github git@github.com:gbonilhaa/tarefas.git[K[72C[34m[2.1.0][39m[116D
+]2;noglob]1;noglob[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[32mgit[39m remote add github git@github.com:gbonilhaa/tarefas.git[58D[32mc[32ma[2C[39m[4m.[4mg[4mi[4mt[4m/[4mc[4mo[4mn[4mf[4mi[4mg[24m                                           [43D[15D[32mg[32mi[2C[24m[39mp[24mu[24ms[24mh[24m [24m-[24mu[24m [24mo[24mr[24migin master[1C[1C[1C[1C[1C master [8D master [8D master [8D master [8D master [8D master [8Dg masteri mastert masterh masteru masterb master[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mgit[39m push -u github master[K[105C[34m[2.1.0][39m[119D
+]2;noglob]1;noglobThe authenticity of host 'github.com (192.30.252.128)' can't be established.
+RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.252.128' (RSA) to the list of known hosts.
+
+Permission denied (publickey).
+fatal: The remote end hung up unexpectedly
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[32ml[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32ml[39m[K[129C[34m[2.1.0][39m[136D
+]2;less]1;lessMissing filename ("less --help" for help)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[32ml[39m[32ml[32ms[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mls[39m[K[128C[34m[2.1.0][39m[135D
+]2;ls]1;lsapp  bin  config  config.ru  db  Gemfile  Gemfile.lock	lib  log  public  Rakefile  README.rdoc  test  tmp  typescript	vendor
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[32mc[39m[32mc[32md[39m [4m.[24m[4m.[4m.[24m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mcd[39m [4m..[24m[K[125C[34m[2.1.0][39m[132D
+]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant]1;/vagrant[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant[39m $ [K[155C[34m[2.1.0][39m[162D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant[39m $ [K[155C[34m[2.1.0][39m[162D[32mc[39m[32mc[32md[39m [4m.[24m[4m.[4m.[24m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant[39m $ [32mcd[39m [4m..[24m[K[150C[34m[2.1.0][39m[157D
+]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/]1;/[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/[39m $ [K[162C[34m[2.1.0][39m[169D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/[39m $ [K[162C[34m[2.1.0][39m[169D[32ml[39m[32ml[32ms[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/[39m $ [32mls[39m[K[160C[34m[2.1.0][39m[167D
+]2;ls]1;lsbin  boot  dev	etc  home  initrd.img  lib  lost+found	media  mnt  opt  proc  root  run  sbin	selinux  srv  sys  tmp	usr  vagrant  var  vmlinuz
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/]1;/[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/[39m $ [K[162C[34m[2.1.0][39m[169D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/[39m $ [K[162C[34m[2.1.0][39m[169D[32mc[39m[32mc[32md[39m [4mh[24m[4mh[4mo[24m[1m[31m...[39m[0m[33m[39m[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/[39m $ [32mcd[39m [4mhome[1m[4m/[0m[24m[K[154C[34m[2.1.0][39m[161D[4me[24m[0m[24m [?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/[39m $ [32mcd[39m [4mhome[24m[K[155C[34m[2.1.0][39m[162D
+]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home]1;/home[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[32ml[39m[32ml[32ms[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [32mls[39m[K[156C[34m[2.1.0][39m[163D
+]2;ls]1;lsvagrant
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home]1;/home[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[4m[33mm[24m[39m[24m[1m[31mm[1m[31mk[0m[39m[1m[31mm[1m[31mk[1m[31md[0m[39m[1m[31md[1m[31mi[0m[39m[0m[32mm[0m[32mk[0m[32md[0m[32mi[32mr[39m [4m.[24m[24m.ssh[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [32mmkdir[39m .ssh[K[148C[34m[2.1.0][39m[155D
+]2;mkdir]1;mkdirmkdir: cannot create directory `.ssh': Permission denied
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home]1;/home[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[32mmkdir[39m .ssh[1m[31ms[1m[31mm[1m[31mk[1m[31md[1m[31mi[1m[31mr[0m[39m .ssh[10D[1m[31ms[1m[31mu[1m[31mm[1m[31mk[1m[31md[1m[31mi[1m[31mr[0m[39m .ssh[10D[1m[31md[1m[31mm[1m[31mk[1m[31md[1m[31mi[1m[31mr[0m[39m .ssh[10D[1m[31mo[1m[31mm[1m[31mk[1m[31md[1m[31mi[1m[31mr[0m[39m .ssh[10D[0m[4m[32ms[0m[4m[32mu[0m[4m[32md[0m[4m[32mo[24m[39m[0m[39m [0m[32mm[0m[32mk[0m[32md[0m[32mi[32mr[39m .ssh[10D[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [4m[32msudo[24m[39m [32mmkdir[39m .ssh[K[143C[34m[2.1.0][39m[160D
+]2;mkdir]1;mkdir[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home]1;/home[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[32ml[39m[32ml[32ms[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [32mls[39m[K[156C[34m[2.1.0][39m[163D
+]2;ls]1;lsvagrant
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home]1;/home[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[32ms[39m[32ms[32mu[39m[1m[31ms[1m[31mu[1m[31md[0m[39m[0m[4m[32ms[0m[4m[32mu[0m[4m[32md[4m[32mo[24m[39m [4m[33mm[24m[39m[24m[1m[31mm[1m[31mk[0m[39m[1m[31mk[1m[31md[0m[39m[1m[31md[1m[31mi[0m[39m[0m[32mm[0m[32mk[0m[32md[0m[32mi[32mr[39m [4m.[24m[4m.[4ms[24m[4ms[4ms[24m[4ms[4mh[24m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [4m[32msudo[24m[39m [32mmkdir[39m [4m.ssh[24m[K[143C[34m[2.1.0][39m[150D
+]2;mkdir]1;mkdirmkdir: cannot create directory `.ssh': File exists
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home]1;/home[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[32ml[39m[32ml[32ms[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [32mls[39m[K[156C[34m[2.1.0][39m[163D
+]2;ls]1;lsvagrant
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home]1;/home[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[32ml[39m[32ml[32ml[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [32mll[39m[K[156C[34m[2.1.0][39m[163D
+]2;ls]1;lstotal 16K
+drwxr-xr-x  4 root    4.0K Mar 17 17:19 .
+drwxr-xr-x 23 root    4.0K Feb 26 18:11 ..
+drwxr-xr-x  2 root    4.0K Mar 17 17:19 .ssh
+drwxr-xr-x 12 vagrant 4.0K Mar 17 17:20 vagrant
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home]1;/home[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[32mc[39m[32mc[32md[39m [4m.[24m[4m.[4ms[24m[1m[31m...[39m[0m[33m[39m[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [32mcd[39m [4m.ssh[1m[4m/[0m[24m[K[150C[34m[2.1.0][39m[157D[4mh[24m[0m[24m [?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [32mcd[39m [4m.ssh[24m[K[151C[34m[2.1.0][39m[158D
+]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home/.ssh]1;/home/.ssh[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home/.ssh[39m $ [K[153C[34m[2.1.0][39m[160D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home/.ssh[39m $ [K[153C[34m[2.1.0][39m[160Dsssh-keygen -t rsa -C "your_email@example.com[44D[32ms[32ms[32mh[32m-[32mk[32me[32my[32mg[32me[32mn[39m[11C[33m"[33my[33mo[33mu[33mr[33m_[33me[33mm[33ma[33mi[33ml[33m@[33me[33mx[33ma[33mm[33mp[33ml[33me[33m.[33mc[33mo[33mm[33m"[39m[33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33m"[39m[39m [33mg[33m"[39m[33mb[33m"[39m[33mo[33m"[39m[33mn[33m"[39m[33mi[33m"[39m[33ml[33m"[39m[33mh[33m"[39m[33ma[33m"[39m[33m@[33m"[39m[33mp[33m"[39m[33ma[33m"[39m[33ml[33m"[39m[33mi[33m"[39m[33ma[33m"[39m[33mr[33m"[39m[33mi[33m"[39m[33m.[33m"[39m[33mc[33m"[39m[33mp[33m"[39m[33mm[33m"[39m[33m.[33m"[39m[33mb[33m"[39m[33mr[33m"[39m[33mm[33m.[33mb[33mr[33m"[39m[39m [33mo[33mm[33m.[33mb[33mr[33m"[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home/.ssh[39m $ [32mssh-keygen[39m -t rsa -C [33m"gbonilha@paliari.com.br"[39m[K[107C[34m[2.1.0][39m[119D
+]2;ssh-keygen]1;ssh-keygenGenerating public/private rsa key pair.
+Enter file in which to save the key (/home/vagrant/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/vagrant/.ssh/id_rsa.
+Your public key has been saved in /home/vagrant/.ssh/id_rsa.pub.
+The key fingerprint is:
+e9:26:17:8c:63:4f:29:2d:09:64:f7:7d:46:c0:b1:4f gbonilha@paliari.com.br
+The key's randomart image is:
++--[ RSA 2048]----+
+|    o .  .oo.    |
+|   o . . ..o     |
+|    .   . o E    |
+|     . = o =     |
+|      B S   .    |
+|     . B .       |
+|      . =        |
+|       +         |
+|                 |
++-----------------+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home/.ssh]1;/home/.ssh[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home/.ssh[39m $ [K[153C[34m[2.1.0][39m[160D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home/.ssh[39m $ [K[153C[34m[2.1.0][39m[160D[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home/.ssh[39m $ [K[153C[34m[2.1.0][39m[160D
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home/.ssh]1;/home/.ssh[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home/.ssh[39m $ [K[153C[34m[2.1.0][39m[160D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home/.ssh[39m $ [K[153C[34m[2.1.0][39m[160D[32ml[39m[32ml[32ms[39m[32ml[39m[39m [39m [32ml[39m[32ml[32ml[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home/.ssh[39m $ [32mll[39m[K[151C[34m[2.1.0][39m[158D
+]2;ls]1;lstotal 8.0K
+drwxr-xr-x 2 root 4.0K Mar 17 17:19 .
+drwxr-xr-x 4 root 4.0K Mar 17 17:19 ..
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home/.ssh]1;/home/.ssh[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home/.ssh[39m $ [K[153C[34m[2.1.0][39m[160D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home/.ssh[39m $ [K[153C[34m[2.1.0][39m[160D[32ml[39m[32ml[32ms[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home/.ssh[39m $ [32mls[39m[K[151C[34m[2.1.0][39m[158D
+]2;ls]1;ls[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home/.ssh]1;/home/.ssh[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home/.ssh[39m $ [K[153C[34m[2.1.0][39m[160D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home/.ssh[39m $ [K[153C[34m[2.1.0][39m[160D[32mc[39m[32mc[32md[39m [4m.[24m[4m.[4m.[24m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home/.ssh[39m $ [32mcd[39m [4m..[24m[K[148C[34m[2.1.0][39m[155D
+]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home]1;/home[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[32ml[39m[32ml[32ml[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [32mll[39m[K[156C[34m[2.1.0][39m[163D
+]2;ls]1;lstotal 16K
+drwxr-xr-x  4 root    4.0K Mar 17 17:19 .
+drwxr-xr-x 23 root    4.0K Feb 26 18:11 ..
+drwxr-xr-x  2 root    4.0K Mar 17 17:19 .ssh
+drwxr-xr-x 12 vagrant 4.0K Mar 17 17:21 vagrant
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home]1;/home[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[32mr[39m[32mr[32mm[39m [4m.[24m[4m.[4ms[24m[4ms[4ms[24m[4ms[4mh[24m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [32mrm[39m [4m.ssh[24m[K[151C[34m[2.1.0][39m[158D
+]2;rm]1;rmrm: cannot remove `.ssh': Is a directory
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home]1;/home[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[32mr[39m[32mr[32mm[39m -rf [4m.[24m[4m.[4ms[24m[4ms[4ms[24m[1m[31m...[39m[0m[33m[39m[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [32mrm[39m -rf [4m.ssh[1m[4m/[0m[24m[K[146C[34m[2.1.0][39m[153D[4mh[24m[0m[24m [?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [32mrm[39m -rf [4m.ssh[24m[K[147C[34m[2.1.0][39m[154D
+]2;rm]1;rmrm: cannot remove `.ssh': Permission denied
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home]1;/home[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[32mrm[39m -rf [4m.ssh[24m[1m[31ms[1m[31mr[1m[31mm[0m[39m -rf[24m [4m.[4ms[4ms[4mh[24m[11D[1m[31ms[1m[31mu[1m[31mr[1m[31mm[0m[39m -rf[24m [4m.[4ms[4ms[4mh[24m[11D[1m[31md[1m[31mr[1m[31mm[0m[39m -rf[24m [4m.[4ms[4ms[4mh[24m[11D[1m[31mo[1m[31mr[1m[31mm[0m[39m -rf[24m [4m.[4ms[4ms[4mh[24m[11D[0m[4m[32ms[0m[4m[32mu[0m[4m[32md[0m[4m[32mo[24m[39m[0m[39m [0m[32mr[32mm[39m -rf[24m [4m.[4ms[4ms[4mh[24m[11D[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [4m[32msudo[24m[39m [32mrm[39m -rf [4m.ssh[24m[K[142C[34m[2.1.0][39m[160D
+]2;rm]1;rm[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home]1;/home[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[32ml[39m[32ml[32ml[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [32mll[39m[K[156C[34m[2.1.0][39m[163D
+]2;ls]1;lstotal 12K
+drwxr-xr-x  3 root    4.0K Mar 17 17:21 .
+drwxr-xr-x 23 root    4.0K Feb 26 18:11 ..
+drwxr-xr-x 12 vagrant 4.0K Mar 17 17:21 vagrant
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home]1;/home[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[32mc[39m[32mc[32md[39m [4mv[24m[4mv[4ma[24m[1m[31m...[39m[0m[33m[39m[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [32mcd[39m [4mvagrant[1m[4m/[0m[24m[K[147C[34m[2.1.0][39m[154D[4mt[24m[0m[24m [?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [32mcd[39m [4mvagrant[24m[K[148C[34m[2.1.0][39m[155D
+]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;~]1;~[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [K[162C[34m[2.1.0][39m[169D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [K[162C[34m[2.1.0][39m[169D[32ml[39m[32ml[32ml[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [32mll[39m[K[160C[34m[2.1.0][39m[167D
+]2;ls]1;lstotal 304K
+drwxr-xr-x 12 vagrant 4.0K Mar 17 17:21 .
+drwxr-xr-x  3 root    4.0K Mar 17 17:21 ..
+lrwxrwxrwx  1 vagrant   28 Mar 14 13:50 .aprc -> /home/vagrant/.yadr/irb/aprc
+-rw-------  1 vagrant 9.4K Mar 14 21:08 .bash_history
+-rw-r--r--  1 vagrant  220 Sep 14  2012 .bash_logout
+-rw-r--r--  1 vagrant 3.5K Feb 26 18:37 .bashrc
+drwxrwxr-x  2 vagrant 4.0K Mar 14 13:50 .bundle
+drwx------  2 vagrant 4.0K Sep 14  2012 .cache
+lrwxrwxrwx  1 vagrant   31 Mar 14 13:50 .ctags -> /home/vagrant/.yadr/ctags/ctags
+lrwxrwxrwx  1 vagrant   33 Mar 14 13:50 .editrc -> /home/vagrant/.yadr/vimify/editrc
+lrwxrwxrwx  1 vagrant   41 Mar 14 13:50 .escaped_colors.rb -> /home/vagrant/.yadr/irb/escaped_colors.rb
+-rw-------  1 vagrant  199 Mar 17 17:21 .fasd
+-rw-rw-r--  1 vagrant    0 Mar 17 13:40 .fasd-init-bash
+drwxrwxr-x  3 vagrant 4.0K Feb 26 19:03 .gem
+lrwxrwxrwx  1 vagrant   30 Mar 14 13:50 .gemrc -> /home/vagrant/.yadr/ruby/gemrc
+-rw-rw-r--  1 vagrant   26 Feb 26 19:03 .gemrc.backup
+lrwxrwxrwx  1 vagrant   33 Mar 14 13:50 .gitconfig -> /home/vagrant/.yadr/git/gitconfig
+-rw-rw-r--  1 vagrant   56 Feb 26 13:10 .gitconfig.backup
+lrwxrwxrwx  1 vagrant   33 Mar 14 13:50 .gitignore -> /home/vagrant/.yadr/git/gitignore
+lrwxrwxrwx  1 vagrant   34 Mar 14 13:50 .inputrc -> /home/vagrant/.yadr/vimify/inputrc
+-rw-------  1 vagrant  642 Mar 13 18:58 .mysql_history
+drwxr-xr-x 10 vagrant 4.0K Mar  6 18:55 .oh-my-zsh
+-rwxr-xr-x  1 vagrant 6.4K Sep 14  2012 postinstall.sh
+-rw-r--r--  1 vagrant  675 Sep 14  2012 .profile
+lrwxrwxrwx  1 vagrant   29 Mar 14 13:50 .pryrc -> /home/vagrant/.yadr/irb/pryrc
+drwxr-xr-x 10 vagrant 4.0K Feb 26 19:02 .rbenv
+lrwxrwxrwx  1 vagrant   33 Mar 14 13:50 .rdebugrc -> /home/vagrant/.yadr/ruby/rdebugrc
+-rw-------  1 vagrant  118 Feb 28 21:19 .sqlite_history
+drwx------  2 vagrant 4.0K Mar 17 17:20 .ssh
+-rw-r--r--  1 vagrant    0 Sep 14  2012 .sudo_as_admin_successful
+lrwxrwxrwx  1 vagrant   34 Mar 14 13:50 .tmux.conf -> /home/vagrant/.yadr/tmux/tmux.conf
+lrwxrwxrwx  1 vagrant   43 Mar 14 13:50 .unescaped_colors.rb -> /home/vagrant/.yadr/irb/unescaped_colors.rb
+-rw-------  1 vagrant    6 Sep 14  2012 .vbox_version
+-rw-------  1 vagrant   12 Sep 14  2012 .veewee_version
+lrwxrwxrwx  1 vagrant   23 Mar 14 13:50 .vim -> /home/vagrant/.yadr/vim
+lrwxrwxrwx  1 vagrant   25 Mar 14 13:50 .vimrc -> /home/vagrant/.yadr/vimrc
+drwxr-xr-x 16 vagrant 4.0K Mar 14 13:49 .yadr
+-rw-rw-r--  1 vagrant  38K Mar 17 13:40 .zcompdump
+-rw-rw-r--  1 vagrant  33K Mar  6 18:57 .zcompdump-precise32-4.3.17
+-r--r--r--  1 vagrant  84K Mar 17 12:04 .zcompdump.zwc
+-rw-------  1 vagrant 2.2K Mar 17 17:21 .zhistory
+-rw-rw-r--  1 vagrant  528 Mar 14 13:50 .zlogin
+-rw-rw-r--  1 vagrant  186 Mar 14 13:50 .zlogout
+lrwxrwxrwx  1 vagrant   30 Mar 14 13:50 .zprezto -> /home/vagrant/.yadr/zsh/prezto
+lrwxrwxrwx  1 vagrant   49 Mar 14 13:50 .zpreztorc -> /home/vagrant/.yadr/zsh/prezto-override/zpreztorc
+-rw-rw-r--  1 vagrant  102 Mar 14 13:50 .zprofile
+drwxrwxr-x  2 vagrant 4.0K Mar 14 13:50 .zsh.after
+drwxrwxr-x  2 vagrant 4.0K Mar 14 13:50 .zsh.before
+-rw-rw-r--  1 vagrant 1.2K Mar 14 13:50 .zshenv
+-rw-------  1 vagrant 1.8K Mar  6 21:44 .zsh_history
+drwxrwxr-x  2 vagrant 4.0K Mar 14 13:50 .zsh.prompts
+-rw-rw-r--  1 vagrant  336 Mar 14 13:50 .zshrc
+-rw-rw-r--  1 vagrant 2.2K Mar  6 18:55 .zshrc.backup
+-rw-rw-r--  1 vagrant   17 Mar  6 18:57 .zsh-update
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;~]1;~[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [K[162C[34m[2.1.0][39m[169D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [K[162C[34m[2.1.0][39m[169D[32mc[39m[32mc[32md[39m [4m.[24m[4m.[4ms[24m[4ms[4ms[24m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [32mcd[39m [4m.ss[24m[K[156C[34m[2.1.0][39m[163D
+]2;cd]1;cdcd: no such file or directory: .ss
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;~]1;~[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [K[162C[34m[2.1.0][39m[169D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [K[162C[34m[2.1.0][39m[169D[32mcd[39m [4m.ss[24m[1m[31m...[39m[0m[33m[39m[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [32mcd[39m [4m.ssh[1m[4m/[0m[24m[K[154C[34m[2.1.0][39m[161D[4mh[24m[0m[24m [?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [32mcd[39m [4m.ssh[24m[K[155C[34m[2.1.0][39m[162D
+]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;~/.ssh]1;~/.ssh[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~/.ssh[39m $ [K[157C[34m[2.1.0][39m[164D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~/.ssh[39m $ [K[157C[34m[2.1.0][39m[164D[32ml[39m[32ml[32ml[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~/.ssh[39m $ [32mll[39m[K[155C[34m[2.1.0][39m[162D
+]2;ls]1;lstotal 24K
+drwx------  2 vagrant 4.0K Mar 17 17:20 .
+drwxr-xr-x 12 vagrant 4.0K Mar 17 17:21 ..
+-rw-------  1 vagrant  409 Sep 14  2012 authorized_keys
+-rw-------  1 vagrant 1.7K Mar 17 17:20 id_rsa
+-rw-r--r--  1 vagrant  405 Mar 17 17:20 id_rsa.pub
+-rw-r--r--  1 vagrant  884 Mar 17 17:17 known_hosts
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;~/.ssh]1;~/.ssh[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~/.ssh[39m $ [K[157C[34m[2.1.0][39m[164D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~/.ssh[39m $ [K[157C[34m[2.1.0][39m[164D[32mc[39m[4m[33mc[4m[33ma[24m[39m[24m[32mc[24m[32ma[32mt[39m [4mi[24m[4m[33mi[4m[33ms[24m[39m[39m[4mi[24m[24m[39m [4mi[4m\[24m[4m\[4md[24m[4m\[24m[24m [4mi[24m[24m [4mi[4md[24m[1m[31m...[39m[0m[33m[39m[33m[39m[33m[39m[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~/.ssh[39m $ [32mcat[39m [4mid_rsa[24m[K[147C[34m[2.1.0][39m[154D[4ma[4m.[24m[1m[31m...[39m[0m[33m[39m[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~/.ssh[39m $ [32mcat[39m [4mid_rsa.pub[24m[1m [0m[K[142C[34m[2.1.0][39m[149D[0m [?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~/.ssh[39m $ [32mcat[39m [4mid_rsa.pub[24m[K[143C[34m[2.1.0][39m[150D
+]2;cat]1;catssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDT55V5v7ydZ7DabcND7l1MeOkqJyoxo7YkKfPDmrBIRz7gNDrC+hiJebiTh/xb0XflgOy+7M0815JQ7k+pJo43U2xbhP0/wYBsoUqkyPMEuJWPuEVBdliZKhcHeXGBTte7xtFIcA+w7fI3/ytXdwYfi3F/Ok5PjAWfHq+KeJpZhzbehC0fL4FxQiGb8XPolZpfWBurRqh9CVhy9tX0wWakOzakIzTjkGarqQAurM7peP/1QQs8GKmIVYVX/RNJAxA49E5DRezTUei3zH1H+TSEzBMc9kiCwSazHLfLpYPQWc9AIJUPqbI8E+7HuzAw/aRglcXaarSDg8aBf5T3rNDp gbonilha@paliari.com.br
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;~/.ssh]1;~/.ssh[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~/.ssh[39m $ [K[157C[34m[2.1.0][39m[164D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~/.ssh[39m $ [K[157C[34m[2.1.0][39m[164Dsssh-keygen -t rsa -C "your_email@example.com[44D[32ms[32ms[32mh[32m-[32mk[32me[32my[32mg[32me[32mn[39m[11C[33m"[33my[33mo[33mu[33mr[33m_[33me[33mm[33ma[33mi[33ml[33m@[33me[33mx[33ma[33mm[33mp[33ml[33me[33m.[33mc[33mo[33mm[33m"[39m[33m"[33ms[39m[33ms[33ms[39m[33ms[33mh[39m[33mh[33m-[39m[33m-[33mr[39m[33mr[33ms[39m[33ms[33ma[39m[33ma[33m [39m[33m [33mA[39m[33mA[33mA[39m[33mA[33mA[39m[33mA[33mA[39m[33mA[33mB[39m[33mB[33m3[39m[33m3[33mN[39m[33mN[33mz[39m[33mz[33ma[39m[33ma[33mC[39m[33mC[33m1[39m[33m1[33my[39m[33my[33mc[39m[33mc[33m2[39m[33m2[33mE[39m[33mE[33mA[39m[33mA[33mA[39m[33mA[33mA[39m[33mA[33mA[39m[33mA[33mD[39m[33mD[33mA[39m[33mA[33mQ[39m[33mQ[33mA[39m[33mA[33mB[39m[33mB[33mA[39m[33mA[33mA[39m[33mA[33mA[39m[33mA[33mB[39m[33mB[33mA[39m[33mA[33mQ[39m[33mQ[33mD[39m[33mD[33mT[39m[33mT[33m5[39m[33m5[33m5[39m[33m5[33mV[39m[33mV[33m5[39m[33m5[33mv[39m[33mv[33m7[39m[33m7[33my[39m[33my[33md[39m[33md[33mZ[39m[33mZ[33m7[39m[33m7[33mD[39m[33mD[33ma[39m[33ma[33mb[39m[33mb[33mc[39m[33mc[33mN[39m[33mN[33mD[39m[33mD[33m7[39m[33m7[33ml[39m[33ml[33m1[39m[33m1[33mM[39m[33mM[33me[39m[33me[33mO[39m[33mO[33mk[39m[33mk[33mq[39m[33mq[33mJ[39m[33mJ[33my[39m[33my[33mo[39m[33mo[33mx[39m[33mx[33mo[39m[33mo[33m7[39m[33m7[33mY[39m[33mY[33mk[39m[33mk[33mK[39m[33mK[33mf[39m[33mf[33mP[39m[33mP[33mD[39m[33mD[33mm[39m[33mm[33mr[39m[33mr[33mB[39m[33mB[33mI[39m[33mI[33mR[39m[33mR[33mz[39m[33mz[33m7[39m[33m7[33mg[39m[33mg[33mN[39m[33mN[33mD[39m[33mD[33mr[39m[33mr[33mC[39m[33mC[33m+[39m[33m+[33mh[39m[33mh[33mi[39m[33mi[33mJ[39m[33mJ[33me[39m[33me[33mb[39m[33mb[33mi[39m[33mi[33mT[39m[33mT[33mh[39m[33mh[33m/[39m[33m/[33mx[39m[33mx[33mb[39m[33mb[33m0[39m[33m0[33mX[39m[33mX[33mf[39m[33mf[33ml[39m[33ml[33mg[39m[33mg[33mO[39m[33mO[33my[39m[33my[33m+[39m[33m+[33m7[39m[33m7[33mM[39m[33mM[33m0[39m[33m0[33m8[39m[K[33m8[33m1[39m[33m1[33m5[39m[33m5[33mJ[39m[33mJ[33mQ[39m[33mQ[33m7[39m[33m7[33mk[39m[33mk[33m+[39m[33m+[33mp[39m [K[A[191C[33mp[33mJ[39m[33mJ[33mo[39m[33mJ[33mo[33m4[39m[33m4[33m3[39m[33m3[33mU[39m[33mU[33m2[39m[33m2[33mx[39m[33mx[33mb[39m[33mb[33mh[39m[33mh[33mP[39m[33mP[33m0[39m[33m0[33m/[39m[33m/[33mw[39m[33mw[33mY[39m[33mY[33mB[39m[33mB[33ms[39m[33ms[33mo[39m[33mo[33mU[39m[33mU[33mq[39m[33mq[33mk[39m[33mk[33my[39m[33my[33mP[39m[33mP[33mM[39m[33mM[33mE[39m[33mE[33mu[39m[33mu[33mJ[39m[33mJ[33mW[39m[33mW[33mP[39m[33mP[33mu[39m[33mu[33mE[39m[33mE[33mV[39m[33mV[33mB[39m[33mB[33md[39m[33md[33ml[39m[33ml[33mi[39m[33mi[33mZ[39m[33mZ[33mK[39m[33mK[33mh[39m[33mh[33mc[39m[33mc[33mH[39m[33mH[33me[39m[33me[33mX[39m[33mX[33mG[39m[33mG[33mB[39m[33mB[33mT[39m[33mT[33mt[39m[33mt[33me[39m[33me[33m7[39m[33m7[33mx[39m[33mx[33mt[39m[33mt[33mF[39m[33mF[33mI[39m[33mI[33mc[39m[33mc[33mA[39m[33mA[33m+[39m[33m+[33mw[39m[33mw[33m7[39m[33m7[33mf[39m[33mf[33mI[39m[33mI[33m3[39m[33m3[33m/[39m[33m/[33my[39m[33my[33mt[39m[33mt[33mX[39m[33mX[33md[39m[33md[33mw[39m[33mw[33mY[39m[33mY[33mf[39m[33mf[33mi[39m[33mi[33m3[39m[33m3[33mF[39m[33mF[33m/[39m[33m/[33mO[39m[33mO[33mk[39m[33mk[33m5[39m[33m5[33mP[39m[33mP[33mj[39m[33mj[33mA[39m[33mA[33mW[39m[33mW[33mf[39m[33mf[33mH[39m[33mH[33mq[39m[33mq[33m+[39m[33m+[33mK[39m[33mK[33me[39m[33me[33mJ[39m[33mJ[33mp[39m[33mp[33mZ[39m[33mZ[33mh[39m[33mh[33mz[39m[33mz[33mb[39m[33mb[33me[39m[33me[33mh[39m[33mh[33mC[39m[33mC[33m0[39m[33m0[33mf[39m[33mf[33mL[39m[33mL[33m4[39m[33m4[33mF[39m[33mF[33mx[39m[33mx[33mQ[39m[33mQ[33mi[39m[33mi[33mG[39m[33mG[33mb[39m[33mb[33m8[39m[33m8[33mX[39m[33mX[33mP[39m[33mP[33mo[39m[33mo[33ml[39m[33ml[33mZ[39m[33mZ[33mp[39m[33mp[33mf[39m[33mf[33mW[39m[33mW[33mB[39m[33mB[33mu[39m[33mu[33mr[39m[33mr[33mR[39m[33mR[33mq[39m[33mq[33mh[39m[33mh[33m9[39m[33m9[33mC[39m[33mC[33mV[39m[33mV[33mh[39m[33mh[33my[39m[33my[33m9[39m[33m9[33mt[39m[33mt[33mX[39m[33mX[33m0[39m[33m0[33mw[39m[33mw[33mW[39m[33mW[33ma[39m[33ma[33mk[39m[33mk[33mO[39m[33mO[33mz[39m[33mz[33ma[39m[33ma[33mk[39m[33mk[33mI[39m[33mI[33mz[39m[33mz[33mT[39m[33mT[33mj[39m[33mj[33mk[39m[33mk[33mG[39m[33mG[33ma[39m[33ma[33mr[39m[33mr[33mq[39m[33mq[33mQ[39m[33mQ[33mA[39m[33mA[33mu[39m[33mu[33mr[39m[33mr[33mM[39m[33mM[33m7[39m[33m7[33mp[39m[33mp[33me[39m[33me[33mP[39m[33mP[33m/[39m[33m/[33m1[39m[33m1[33mQ[39m[33mQ[33mQ[39m[33mQ[33ms[39m[33ms[33m8[39m[33m8[33mG[39m[33mG[33mK[39m[33mK[33mm[39m[33mm[33mI[39m[33mI[33mV[39m[33mV[33mY[39m[33mY[33mV[39m[33mV[33mX[39m[33mX[33m/[39m[33m/[33mR[39m[33mR[33mN[39m[33mN[33mJ[39m[33mJ[33mA[39m[33mA[33mx[39m[33mx[33mA[39m[33mA[33m4[39m[33m4[33m9[39m[33m9[33mE[39m[33mE[33m5[39m[33m5[33mD[39m[33mD[33mR[39m[33mR[33me[39m[33me[33mz[39m[33mz[33mT[39m[33mT[33mU[39m[33mU[33me[39m[33me[33mi[39m[33mi[33m3[39m[33m3[33mz[39m[33mz[33mH[39m[33mH[33m1[39m[33m1[33mH[39m [K[A[191C[33mH[33m+[39m[33m+[33mT[39m[33m+[33mT[33mS[39m[33mS[33mE[39m[33mE[33mz[39m[33mz[33mB[39m[33mB[33mM[39m[33mM[33mc[39m[33mc[33m9[39m[33m9[33mk[39m[33mk[33mi[39m[33mi[33mC[39m[33mC[33mw[39m[33mw[33mS[39m[33mS[33ma[39m[33ma[33mz[39m[33mz[33mH[39m[33mH[33mL[39m[33mL[33mf[39m[33mf[33mL[39m[33mL[33mp[39m[33mp[33mY[39m[33mY[33mP[39m[33mP[33mQ[39m[33mQ[33mW[39m[33mW[33mc[39m[33mc[33m9[39m[33m9[33mA[39m[33mA[33mI[39m[33mI[33mJ[39m[33mJ[33mU[39m[33mU[33mP[39m[33mP[33mq[39m[33mq[33mb[39m[33mb[33mI[39m[33mI[33m8[39m[33m8[33mE[39m[33mE[33m+[39m[33m+[33m7[39m[33m7[33mH[39m[33mH[33mu[39m[33mu[33mz[39m[33mz[33mA[39m[33mA[33mw[39m[33mw[33m/[39m[33m/[33ma[39m[33ma[33mR[39m[33mR[33mg[39m[33mg[33ml[39m[33ml[33mc[39m[33mc[33mX[39m[33mX[33ma[39m[33ma[33ma[39m[33ma[33mr[39m[33mr[33mS[39m[33mS[33mD[39m[33mD[33mg[39m[33mg[33m8[39m[33m8[33ma[39m[33ma[33mB[39m[33mB[33mf[39m[33mf[33m5[39m[33m5[33mT[39m[33mT[33m3[39m[33m3[33mr[39m[33mr[33mN[39m[33mN[33mD[39m[33mD[33mp[39m[33mp[33m [39m[33m [33mg[39m[33mg[33mb[39m[33mb[33mo[39m[33mo[33mn[39m[33mn[33mi[39m[33mi[33ml[39m[33ml[33mh[39m[33mh[33ma[39m[33ma[33m@[39m[33m@[33mp[39m[33mp[33ma[39m[33ma[33ml[39m[33ml[33mi[39m[33mi[33ma[39m[33ma[33mr[39m[33mr[33mi[39m[33mi[33m.[39m[33m.[33mc[39m[33mc[33mo[39m[33mo[33mm[39m[33mm[33m.[39m[33m.[33mb[39m[A[A[43D[39m"[39my[39mo[39mu[39mr[39m_[39me[39mm[39ma[39mi[39ml[39m@[39me[39mx[39ma[39mm[39mp[39ml[39me[39m.[39mc[39mo[39mm[39m"[39ms[39ms[39mh[39m-[39mr[39ms[39ma[39m [39mA[39mA[39mA[39mA[39mB[39m3[39mN[39mz[39ma[39mC[39m1[39my[39mc[39m2[39mE[39mA[39mA[39mA[39mA[39mD[39mA[39mQ[39mA[39mB[39mA[39mA[39mA[39mB[39mA[39mQ[39mD[39mT[39m5[39m5[39mV[39m5[39mv[39m7[39my[39md[39mZ[39m7[39mD[39ma[39mb[39mc[39mN[39mD[39m7[39ml[39m1[39mM[39me[39mO[39mk[39mq[39mJ[39my[39mo[39mx[39mo[39m7[39mY[39mk[39mK[39mf[39mP[39mD[39mm[39mr[39mB[39mI[39mR[39mz[39m7[39mg[39mN[39mD[39mr[39mC[39m+[39mh[39mi[39mJ[39me[39mb[39mi[39mT[39mh[39m/[39mx[39mb[39m0[39mX[39mf[39ml[39mg[39mO[39my[39m+[39m7[39mM[39m0[39m8[39m1[39m5[39mJ[39mQ[39m7[39mk[39m+[39mpJ[39mo[39m4[39m3[39mU[39m2[39mx[39mb[39mh[39mP[39m0[39m/[39mw[39mY[39mB[39ms[39mo[39mU[39mq[39mk[39my[39mP[39mM[39mE[39mu[39mJ[39mW[39mP[39mu[39mE[39mV[39mB[39md[39ml[39mi[39mZ[39mK[39mh[39mc[39mH[39me[39mX[39mG[39mB[39mT[39mt[39me[39m7[39mx[39mt[39mF[39mI[39mc[39mA[39m+[39mw[39m7[39mf[39mI[39m3[39m/[39my[39mt[39mX[39md[39mw[39mY[39mf[39mi[39m3[39mF[39m/[39mO[39mk[39m5[39mP[39mj[39mA[39mW[39mf[39mH[39mq[39m+[39mK[39me[39mJ[39mp[39mZ[39mh[39mz[39mb[39me[39mh[39mC[39m0[39mf[39mL[39m4[39mF[39mx[39mQ[39mi[39mG[39mb[39m8[39mX[39mP[39mo[39ml[39mZ[39mp[39mf[39mW[39mB[39mu[39mr[39mR[39mq[39mh[39m9[39mC[39mV[39mh[39my[39m9[39mt[39mX[39m0[39mw[39mW[39ma[39mk[39mO[39mz[39ma[39mk[39mI[39mz[39mT[39mj[39mk[39mG[39ma[39mr[39mq[39mQ[39mA[39mu[39mr[39mM[39m7[39mp[39me[39mP[39m/[39m1[39mQ[39mQ[39ms[39m8[39mG[39mK[39mm[39mI[39mV[39mY[39mV[39mX[39m/[39mR[39mN[39mJ[39mA[39mx[39mA[39m4[39m9[39mE[39m5[39mD[39mR[39me[39mz[39mT[39mU[39me[39mi[39m3[39mz[39mH[39m1[39mH+[39mT[39mS[39mE[39mz[39mB[39mM[39mc[39m9[39mk[39mi[39mC[39mw[39mS[39ma[39mz[39mH[39mL[39mf[39mL[39mp[39mY[39mP[39mQ[39mW[39mc[39m9[39mA[39mI[39mJ[39mU[39mP[39mq[39mb[39mI[39m8[39mE[39m+[39m7[39mH[39mu[39mz[39mA[39mw[39m/[39ma[39mR[39mg[39ml[39mc[39mX[39ma[39ma[39mr[39mS[39mD[39mg[39m8[39ma[39mB[39mf[39m5[39mT[39m3[39mr[39mN[39mD[39mp[39m [39mg[39mb[39mo[39mn[39mi[39ml[39mh[39ma[39m@[39mp[39ma[39ml[39mi[39ma[39mr[39mi[39m.[39mc[39mo[39mm[39m.[39mbr
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;~/.ssh]1;~/.ssh[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~/.ssh[39m $ [K[157C[34m[2.1.0][39m[164D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~/.ssh[39m $ [K[157C[34m[2.1.0][39m[164D[32mcat[39m [4mid_rsa.pub[24m[14D[32ml[32ml[39m[39m  [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [12D[32mc[32md[39m .ssh vagrant[10D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mr[32mm[39m -rf .ssh[16D[24m[32mr[24m[32mm[39m[24m[39m [24m[39m-r[39mf[39m .ssh     [8D.ssh    [32mc[32md[39m [4m.[4m.[24m  [32ml[32ms[39m [24m [24m [32ms[32ms[32mh-keygen[39m -t rsa -C [33m"gbonilha@paliari.com.br"[39m[46D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[39m [32mm[32mk[32md[32mi[32mr[39m .ssh      [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [31D[15D[24m[32mm[24m[32mk[24m[32md[24m[32mi[32mr[39m[39m [39m.[39ms[39ms[39mh     [10D[32mc[32md[39m[39m [39mh[39mome   [32ml[39m[39m      [32mg[32mit[39m push -u github master[21Dremote add github git@github.com:gbonilhaa/tarefas.git[58D[32mc[32ma[2C[39m.git/config                                           [43D[15D[32mg[32mi[2C[39mremote add github git@github.com:gbonilhaa/tarefas.git[54Dpush -u github master                                 [33D[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~/.ssh[39m $ [32mgit[39m push -u github master[K[132C[34m[2.1.0][39m[139D
+]2;noglob]1;noglobfatal: Not a git repository (or any of the parent directories): .git
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;~/.ssh]1;~/.ssh[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~/.ssh[39m $ [K[157C[34m[2.1.0][39m[164D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~/.ssh[39m $ [K[157C[34m[2.1.0][39m[164D[32mc[39m[32mc[32md[39m [4m.[24m[4m.[4m.[24m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~/.ssh[39m $ [32mcd[39m [4m..[24m[K[152C[34m[2.1.0][39m[159D
+]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;~]1;~[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [K[162C[34m[2.1.0][39m[169D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [K[162C[34m[2.1.0][39m[169D[32ml[39m[32ml[32ml[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [32mll[39m[K[160C[34m[2.1.0][39m[167D
+]2;ls]1;lstotal 304K
+drwxr-xr-x 12 vagrant 4.0K Mar 17 17:23 .
+drwxr-xr-x  3 root    4.0K Mar 17 17:21 ..
+lrwxrwxrwx  1 vagrant   28 Mar 14 13:50 .aprc -> /home/vagrant/.yadr/irb/aprc
+-rw-------  1 vagrant 9.4K Mar 14 21:08 .bash_history
+-rw-r--r--  1 vagrant  220 Sep 14  2012 .bash_logout
+-rw-r--r--  1 vagrant 3.5K Feb 26 18:37 .bashrc
+drwxrwxr-x  2 vagrant 4.0K Mar 14 13:50 .bundle
+drwx------  2 vagrant 4.0K Sep 14  2012 .cache
+lrwxrwxrwx  1 vagrant   31 Mar 14 13:50 .ctags -> /home/vagrant/.yadr/ctags/ctags
+lrwxrwxrwx  1 vagrant   33 Mar 14 13:50 .editrc -> /home/vagrant/.yadr/vimify/editrc
+lrwxrwxrwx  1 vagrant   41 Mar 14 13:50 .escaped_colors.rb -> /home/vagrant/.yadr/irb/escaped_colors.rb
+-rw-------  1 vagrant  280 Mar 17 17:23 .fasd
+-rw-rw-r--  1 vagrant    0 Mar 17 13:40 .fasd-init-bash
+drwxrwxr-x  3 vagrant 4.0K Feb 26 19:03 .gem
+lrwxrwxrwx  1 vagrant   30 Mar 14 13:50 .gemrc -> /home/vagrant/.yadr/ruby/gemrc
+-rw-rw-r--  1 vagrant   26 Feb 26 19:03 .gemrc.backup
+lrwxrwxrwx  1 vagrant   33 Mar 14 13:50 .gitconfig -> /home/vagrant/.yadr/git/gitconfig
+-rw-rw-r--  1 vagrant   56 Feb 26 13:10 .gitconfig.backup
+lrwxrwxrwx  1 vagrant   33 Mar 14 13:50 .gitignore -> /home/vagrant/.yadr/git/gitignore
+lrwxrwxrwx  1 vagrant   34 Mar 14 13:50 .inputrc -> /home/vagrant/.yadr/vimify/inputrc
+-rw-------  1 vagrant  642 Mar 13 18:58 .mysql_history
+drwxr-xr-x 10 vagrant 4.0K Mar  6 18:55 .oh-my-zsh
+-rwxr-xr-x  1 vagrant 6.4K Sep 14  2012 postinstall.sh
+-rw-r--r--  1 vagrant  675 Sep 14  2012 .profile
+lrwxrwxrwx  1 vagrant   29 Mar 14 13:50 .pryrc -> /home/vagrant/.yadr/irb/pryrc
+drwxr-xr-x 10 vagrant 4.0K Feb 26 19:02 .rbenv
+lrwxrwxrwx  1 vagrant   33 Mar 14 13:50 .rdebugrc -> /home/vagrant/.yadr/ruby/rdebugrc
+-rw-------  1 vagrant  118 Feb 28 21:19 .sqlite_history
+drwx------  2 vagrant 4.0K Mar 17 17:20 .ssh
+-rw-r--r--  1 vagrant    0 Sep 14  2012 .sudo_as_admin_successful
+lrwxrwxrwx  1 vagrant   34 Mar 14 13:50 .tmux.conf -> /home/vagrant/.yadr/tmux/tmux.conf
+lrwxrwxrwx  1 vagrant   43 Mar 14 13:50 .unescaped_colors.rb -> /home/vagrant/.yadr/irb/unescaped_colors.rb
+-rw-------  1 vagrant    6 Sep 14  2012 .vbox_version
+-rw-------  1 vagrant   12 Sep 14  2012 .veewee_version
+lrwxrwxrwx  1 vagrant   23 Mar 14 13:50 .vim -> /home/vagrant/.yadr/vim
+lrwxrwxrwx  1 vagrant   25 Mar 14 13:50 .vimrc -> /home/vagrant/.yadr/vimrc
+drwxr-xr-x 16 vagrant 4.0K Mar 14 13:49 .yadr
+-rw-rw-r--  1 vagrant  38K Mar 17 13:40 .zcompdump
+-rw-rw-r--  1 vagrant  33K Mar  6 18:57 .zcompdump-precise32-4.3.17
+-r--r--r--  1 vagrant  84K Mar 17 12:04 .zcompdump.zwc
+-rw-------  1 vagrant 2.4K Mar 17 17:23 .zhistory
+-rw-rw-r--  1 vagrant  528 Mar 14 13:50 .zlogin
+-rw-rw-r--  1 vagrant  186 Mar 14 13:50 .zlogout
+lrwxrwxrwx  1 vagrant   30 Mar 14 13:50 .zprezto -> /home/vagrant/.yadr/zsh/prezto
+lrwxrwxrwx  1 vagrant   49 Mar 14 13:50 .zpreztorc -> /home/vagrant/.yadr/zsh/prezto-override/zpreztorc
+-rw-rw-r--  1 vagrant  102 Mar 14 13:50 .zprofile
+drwxrwxr-x  2 vagrant 4.0K Mar 14 13:50 .zsh.after
+drwxrwxr-x  2 vagrant 4.0K Mar 14 13:50 .zsh.before
+-rw-rw-r--  1 vagrant 1.2K Mar 14 13:50 .zshenv
+-rw-------  1 vagrant 1.8K Mar  6 21:44 .zsh_history
+drwxrwxr-x  2 vagrant 4.0K Mar 14 13:50 .zsh.prompts
+-rw-rw-r--  1 vagrant  336 Mar 14 13:50 .zshrc
+-rw-rw-r--  1 vagrant 2.2K Mar  6 18:55 .zshrc.backup
+-rw-rw-r--  1 vagrant   17 Mar  6 18:57 .zsh-update
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;~]1;~[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [K[162C[34m[2.1.0][39m[169D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [K[162C[34m[2.1.0][39m[169D[32mc[39m[32mc[32md[39m [4m[33mt[24m[39m[1m[31m...[39m[0m[33m[39m[33m[39m[33m[39m[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [32mcd[39m t[K[158C[34m[2.1.0][39m[165D[33m[39m
+ [33m-- user --[39m
+[J[0mgnats     [Jroot      [Jstatd     [Jvagrant   [Jwww-data[J[A[A[0m[27m[24m[39m[22C[32mcd[39m t[K[158C[34m[2.1.0][39m[39m[165D[4m[33mt[4m[33ma[24m[39m[1m[31m...[39m[0m[33m[39m[33m[39m[33m[39m[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [32mcd[39m ta[K[157C[34m[2.1.0][39m[164D[33m[39m
+ [33m-- user --[39m
+[J[0mstatd     [Jwww-data[J[A[A[0m[27m[24m[39m[22C[32mcd[39m ta[K[157C[34m[2.1.0][39m[39m[164Dre[1m[31m...[39m[0m[31m[39m[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ cd tare[K[155C[34m[2.1.0][39m[162D[31m[39m
+[J [31m-- no matches found --[39m[A[0m[27m[24m[39m[22Ccd tare[K[155C[34m[2.1.0][39m[39m[162D[32mc[32md[39m[4C [4m[33mt[4m[33ma[24m[39m [4m[33mt[24m[39m[24m[39m [24m[39m [32mc[39m[39m [39m [32ml[39m[32ml[32ml[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [32mll[39m[K[160C[34m[2.1.0][39m[167D
+]2;ls]1;lstotal 304K
+drwxr-xr-x 12 vagrant 4.0K Mar 17 17:23 .
+drwxr-xr-x  3 root    4.0K Mar 17 17:21 ..
+lrwxrwxrwx  1 vagrant   28 Mar 14 13:50 .aprc -> /home/vagrant/.yadr/irb/aprc
+-rw-------  1 vagrant 9.4K Mar 14 21:08 .bash_history
+-rw-r--r--  1 vagrant  220 Sep 14  2012 .bash_logout
+-rw-r--r--  1 vagrant 3.5K Feb 26 18:37 .bashrc
+drwxrwxr-x  2 vagrant 4.0K Mar 14 13:50 .bundle
+drwx------  2 vagrant 4.0K Sep 14  2012 .cache
+lrwxrwxrwx  1 vagrant   31 Mar 14 13:50 .ctags -> /home/vagrant/.yadr/ctags/ctags
+lrwxrwxrwx  1 vagrant   33 Mar 14 13:50 .editrc -> /home/vagrant/.yadr/vimify/editrc
+lrwxrwxrwx  1 vagrant   41 Mar 14 13:50 .escaped_colors.rb -> /home/vagrant/.yadr/irb/escaped_colors.rb
+-rw-------  1 vagrant  280 Mar 17 17:23 .fasd
+-rw-rw-r--  1 vagrant    0 Mar 17 13:40 .fasd-init-bash
+drwxrwxr-x  3 vagrant 4.0K Feb 26 19:03 .gem
+lrwxrwxrwx  1 vagrant   30 Mar 14 13:50 .gemrc -> /home/vagrant/.yadr/ruby/gemrc
+-rw-rw-r--  1 vagrant   26 Feb 26 19:03 .gemrc.backup
+lrwxrwxrwx  1 vagrant   33 Mar 14 13:50 .gitconfig -> /home/vagrant/.yadr/git/gitconfig
+-rw-rw-r--  1 vagrant   56 Feb 26 13:10 .gitconfig.backup
+lrwxrwxrwx  1 vagrant   33 Mar 14 13:50 .gitignore -> /home/vagrant/.yadr/git/gitignore
+lrwxrwxrwx  1 vagrant   34 Mar 14 13:50 .inputrc -> /home/vagrant/.yadr/vimify/inputrc
+-rw-------  1 vagrant  642 Mar 13 18:58 .mysql_history
+drwxr-xr-x 10 vagrant 4.0K Mar  6 18:55 .oh-my-zsh
+-rwxr-xr-x  1 vagrant 6.4K Sep 14  2012 postinstall.sh
+-rw-r--r--  1 vagrant  675 Sep 14  2012 .profile
+lrwxrwxrwx  1 vagrant   29 Mar 14 13:50 .pryrc -> /home/vagrant/.yadr/irb/pryrc
+drwxr-xr-x 10 vagrant 4.0K Feb 26 19:02 .rbenv
+lrwxrwxrwx  1 vagrant   33 Mar 14 13:50 .rdebugrc -> /home/vagrant/.yadr/ruby/rdebugrc
+-rw-------  1 vagrant  118 Feb 28 21:19 .sqlite_history
+drwx------  2 vagrant 4.0K Mar 17 17:20 .ssh
+-rw-r--r--  1 vagrant    0 Sep 14  2012 .sudo_as_admin_successful
+lrwxrwxrwx  1 vagrant   34 Mar 14 13:50 .tmux.conf -> /home/vagrant/.yadr/tmux/tmux.conf
+lrwxrwxrwx  1 vagrant   43 Mar 14 13:50 .unescaped_colors.rb -> /home/vagrant/.yadr/irb/unescaped_colors.rb
+-rw-------  1 vagrant    6 Sep 14  2012 .vbox_version
+-rw-------  1 vagrant   12 Sep 14  2012 .veewee_version
+lrwxrwxrwx  1 vagrant   23 Mar 14 13:50 .vim -> /home/vagrant/.yadr/vim
+lrwxrwxrwx  1 vagrant   25 Mar 14 13:50 .vimrc -> /home/vagrant/.yadr/vimrc
+drwxr-xr-x 16 vagrant 4.0K Mar 14 13:49 .yadr
+-rw-rw-r--  1 vagrant  38K Mar 17 13:40 .zcompdump
+-rw-rw-r--  1 vagrant  33K Mar  6 18:57 .zcompdump-precise32-4.3.17
+-r--r--r--  1 vagrant  84K Mar 17 12:04 .zcompdump.zwc
+-rw-------  1 vagrant 2.4K Mar 17 17:23 .zhistory
+-rw-rw-r--  1 vagrant  528 Mar 14 13:50 .zlogin
+-rw-rw-r--  1 vagrant  186 Mar 14 13:50 .zlogout
+lrwxrwxrwx  1 vagrant   30 Mar 14 13:50 .zprezto -> /home/vagrant/.yadr/zsh/prezto
+lrwxrwxrwx  1 vagrant   49 Mar 14 13:50 .zpreztorc -> /home/vagrant/.yadr/zsh/prezto-override/zpreztorc
+-rw-rw-r--  1 vagrant  102 Mar 14 13:50 .zprofile
+drwxrwxr-x  2 vagrant 4.0K Mar 14 13:50 .zsh.after
+drwxrwxr-x  2 vagrant 4.0K Mar 14 13:50 .zsh.before
+-rw-rw-r--  1 vagrant 1.2K Mar 14 13:50 .zshenv
+-rw-------  1 vagrant 1.8K Mar  6 21:44 .zsh_history
+drwxrwxr-x  2 vagrant 4.0K Mar 14 13:50 .zsh.prompts
+-rw-rw-r--  1 vagrant  336 Mar 14 13:50 .zshrc
+-rw-rw-r--  1 vagrant 2.2K Mar  6 18:55 .zshrc.backup
+-rw-rw-r--  1 vagrant   17 Mar  6 18:57 .zsh-update
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;~]1;~[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [K[162C[34m[2.1.0][39m[169D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [K[162C[34m[2.1.0][39m[169D[32mc[39m[32mc[32md[39m [32mc[39m[39m [39m [32mc[39m[32mc[32md[39m [4m.[24m[4m.[4m.[24m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m~[39m $ [32mcd[39m [4m..[24m[K[157C[34m[2.1.0][39m[164D
+]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home]1;/home[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[32ml[39m[32ml[32ml[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [32mll[39m[K[156C[34m[2.1.0][39m[163D
+]2;ls]1;lstotal 12K
+drwxr-xr-x  3 root    4.0K Mar 17 17:21 .
+drwxr-xr-x 23 root    4.0K Feb 26 18:11 ..
+drwxr-xr-x 12 vagrant 4.0K Mar 17 17:23 vagrant
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/home]1;/home[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [K[158C[34m[2.1.0][39m[165D[32mc[39m[32mc[32md[39m [4m.[24m[4m.[4m.[24m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/home[39m $ [32mcd[39m [4m..[24m[K[153C[34m[2.1.0][39m[160D
+]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/]1;/[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/[39m $ [K[162C[34m[2.1.0][39m[169D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/[39m $ [K[162C[34m[2.1.0][39m[169D[32ml[39m[32ml[32ml[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/[39m $ [32mll[39m[K[160C[34m[2.1.0][39m[167D
+]2;ls]1;lstotal 85K
+drwxr-xr-x 23 root    4.0K Feb 26 18:11 .
+drwxr-xr-x 23 root    4.0K Feb 26 18:11 ..
+drwxr-xr-x  2 root    4.0K Mar  6 18:56 bin
+drwxr-xr-x  4 root    1.0K Sep 14  2012 boot
+drwxr-xr-x 14 root    4.1K Mar 17 12:02 dev
+drwxr-xr-x 81 root    4.0K Mar 17 12:02 etc
+drwxr-xr-x  3 root    4.0K Mar 17 17:21 home
+lrwxrwxrwx  1 root      37 Sep 14  2012 initrd.img -> /boot/initrd.img-3.2.0-23-generic-pae
+drwxr-xr-x 19 root    4.0K Sep 14  2012 lib
+drwx------  2 root     16K Sep 14  2012 lost+found
+drwxr-xr-x  4 root    4.0K Sep 14  2012 media
+drwxr-xr-x  2 root    4.0K Apr 19  2012 mnt
+drwxr-xr-x  4 root    4.0K Sep 14  2012 opt
+dr-xr-xr-x 87 root       0 Mar 17 12:01 proc
+drwx------  2 root    4.0K Sep 14  2012 root
+drwxr-xr-x 16 root     680 Mar 17 12:04 run
+drwxr-xr-x  2 root    4.0K Sep 14  2012 sbin
+drwxr-xr-x  2 root    4.0K Mar  5  2012 selinux
+drwxr-xr-x  2 root    4.0K Sep 14  2012 srv
+drwxr-xr-x 13 root       0 Mar 17 12:01 sys
+drwxrwxrwt  4 root    4.0K Mar 17 17:17 tmp
+drwxr-xr-x 10 root    4.0K Sep 14  2012 usr
+drwxrwxrwx  1 vagrant 4.0K Mar 14 13:56 vagrant
+drwxr-xr-x 11 root    4.0K Mar 13 19:14 var
+lrwxrwxrwx  1 root      33 Sep 14  2012 vmlinuz -> boot/vmlinuz-3.2.0-23-generic-pae
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/]1;/[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/[39m $ [K[162C[34m[2.1.0][39m[169D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/[39m $ [K[162C[34m[2.1.0][39m[169D[32mc[39m[32mc[32md[39m [4mv[24m[4mv[4ma[24m[1m[31m...[39m[0m[33m[39m[33m[39m[33m[39m[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/[39m $ [32mcd[39m va[K[157C[34m[2.1.0][39m[164D[33m[39m
+ [33m-- local directory --[39m
+[J[34;42mvagrant[0m/  [J[01;34mvar[0m/    [J[A[A[0m[27m[24m[39m[22C[32mcd[39m va[K[157C[34m[2.1.0][39m[39m[164D[4mv[4ma[4mg[24m[1m[31m...[39m[0m[33m[39m[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/[39m $ [32mcd[39m [4mvagrant[1m[4m/[0m[24m[K[151C[34m[2.1.0][39m[158D[0m[4m/[4mt[24m[1m[31m...[39m[0m[33m[39m[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/[39m $ [32mcd[39m [4mvagrant/tarefas[1m[4m/[0m[24m[K[143C[34m[2.1.0][39m[150D[4ms[24m[0m[24m [?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/[39m $ [32mcd[39m [4mvagrant/tarefas[24m[K[144C[34m[2.1.0][39m[151D
+]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[32ml[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32ml[39m[K[129C[34m[2.1.0][39m[136D
+]2;less]1;lessMissing filename ("less --help" for help)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[32ml[39m[32ml[32ml[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mll[39m[K[128C[34m[2.1.0][39m[135D
+]2;ls]1;lstotal 163K
+drwxrwxrwx 1 vagrant 4.0K Mar 17 12:38 .
+drwxrwxrwx 1 vagrant 4.0K Mar 14 13:56 ..
+drwxrwxrwx 1 vagrant    0 Mar  6 13:44 app
+drwxrwxrwx 1 vagrant    0 Mar  6 13:44 bin
+drwxrwxrwx 1 vagrant 4.0K Mar 17 17:14 config
+-rwxrwxrwx 1 vagrant  154 Mar  6 13:44 config.ru
+drwxrwxrwx 1 vagrant 4.0K Mar 17 13:53 db
+-rwxrwxrwx 1 vagrant 1.2K Mar  6 13:44 Gemfile
+-rwxrwxrwx 1 vagrant 2.7K Mar  6 13:44 Gemfile.lock
+drwxrwxrwx 1 vagrant 4.0K Mar 17 17:23 .git
+-rwxrwxrwx 1 vagrant  466 Mar  6 13:44 .gitignore
+drwxrwxrwx 1 vagrant    0 Mar  6 13:44 lib
+drwxrwxrwx 1 vagrant    0 Mar 14 12:53 log
+drwxrwxrwx 1 vagrant 4.0K Mar  6 13:44 public
+-rwxrwxrwx 1 vagrant  252 Mar  6 13:44 Rakefile
+-rwxrwxrwx 1 vagrant   92 Mar  6 13:44 README.rdoc
+drwxrwxrwx 1 vagrant 4.0K Mar  6 13:44 test
+drwxrwxrwx 1 vagrant    0 Mar 14 12:53 tmp
+-rwxrwxrwx 1 vagrant 128K Mar 17 13:40 typescript
+drwxrwxrwx 1 vagrant    0 Mar  6 13:44 vendor
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[32mg[39m[32mg[32mi[39m[32mg[32mi[32mt[39m[1m[31mg[1m[31mi[1m[31mt[1m[31ms[0m[39m[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [1m[31mgits[0m[39m[K[126C[34m[2.1.0][39m[133D
+zsh: correct [31mgits[39m to [32mgist[39m [nyae]? [1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[32mg[39m[32mg[32mt[39m[32mg[39m[39m [32mg[32mi[39m[32mg[32mi[32mt[39m [4m[33ms[24m[39m[4m[33ms[4m[33ma[24m[39m[24m[39ms[24m[39matatu   [4m[33ms[4m[33ma[24m[39m [4m[33ms[24m[39m[24m[39m [4m[33ms[4m[33mt[24m[39m[24m[39ms[24m[39mtatus[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mgit[39m status[K[120C[34m[2.1.0][39m[127D
+]2;noglob]1;noglob# On branch master
+# Your branch is ahead of 'origin/master' by 4 commits.
+#
+# Changes not staged for commit:
+#	[31mdeleted:    .vagrant/machines/default/virtualbox/action_provision[m
+#	[31mdeleted:    .vagrant/machines/default/virtualbox/action_set_name[m
+#	[31mdeleted:    .vagrant/machines/default/virtualbox/id[m
+#	[31mdeleted:    Vagrantfile[m
+#	[31mdeleted:    anotacoes curso neves sobre ruby.txt[m
+#	[31mdeleted:    anotacoes/Aula 1-Manual de instalacao projeto e abrindo server.txt[m
+#	[31mdeleted:    anotacoes/anotacoes curso neves sobre ruby.txt[m
+#	[31mdeleted:    app/controllers/usuarios_controler.rb[m
+#	[31mmodified:   app/controllers/usuarios_controller.rb[m
+#	[31mdeleted:    app/views/usuarios/usuarios.html.rb[m
+#	[31mdeleted:    help_desk/.gitignore[m
+#	[31mdeleted:    help_desk/Gemfile[m
+#	[31mdeleted:    help_desk/Gemfile.lock[m
+#	[31mdeleted:    help_desk/README.rdoc[m
+#	[31mdeleted:    help_desk/Rakefile[m
+#	[31mdeleted:    help_desk/app/assets/images/.keep[m
+#	[31mdeleted:    help_desk/app/assets/javascripts/application.js[m
+#	[31mdeleted:    help_desk/app/assets/javascripts/paginas.js.coffee[m
+#	[31mdeleted:    help_desk/app/assets/stylesheets/application.css[m
+#	[31mdeleted:    help_desk/app/assets/stylesheets/paginas.css.scss[m
+#	[31mdeleted:    help_desk/app/controllers/application_controller.rb[m
+#	[31mdeleted:    help_desk/app/controllers/concerns/.keep[m
+#	[31mdeleted:    help_desk/app/controllers/paginas_controller.rb[m
+#	[31mdeleted:    help_desk/app/helpers/application_helper.rb[m
+#	[31mdeleted:    help_desk/app/helpers/paginas_helper.rb[m
+#	[31mdeleted:    help_desk/app/mailers/.keep[m
+#	[31mdeleted:    help_desk/app/models/.keep[m
+#	[31mdeleted:    help_desk/app/models/concerns/.keep[m
+#	[31mdeleted:    help_desk/app/models/contato.rb[m
+#	[31mdeleted:    help_desk/app/views/layouts/_menu.html.erb[m
+#	[31mdeleted:    help_desk/app/views/layouts/application.html.erb[m
+#	[31mdeleted:    help_desk/app/views/paginas/contato.html.erb[m
+#	[31mdeleted:    help_desk/app/views/paginas/contatos.html.erb[m
+#	[31mdeleted:    help_desk/app/views/paginas/envia_contato.html.erb[m
+#	[31mdeleted:    help_desk/app/views/paginas/home.html.erb[m
+#	[31mdeleted:    help_desk/app/views/paginas/preco.html.erb[m
+#	[31mdeleted:    help_desk/app/views/paginas/recurso.html.erb[m
+#	[31mdeleted:    help_desk/bin/bundle[m
+#	[31mdeleted:    help_desk/bin/rails[m
+#	[31mdeleted:    help_desk/bin/rake[m
+#	[31mdeleted:    help_desk/config.ru[m
+#	[31mdeleted:    help_desk/config/application.rb[m
+#	[31mdeleted:    help_desk/config/boot.rb[m
+#	[31mdeleted:    help_desk/config/database.yml[m
+#	[31mdeleted:    help_desk/config/environment.rb[m
+#	[31mdeleted:    help_desk/config/environments/development.rb[m
+#	[31mdeleted:    help_desk/config/environments/production.rb[m
+#	[31mdeleted:    help_desk/config/environments/test.rb[m
+#	[31mdeleted:    help_desk/config/initializers/backtrace_silencers.rb[m
+#	[31mdeleted:    help_desk/config/initializers/filter_parameter_logging.rb[m
+#	[31mdeleted:    help_desk/config/initializers/inflections.rb[m
+#	[31mdeleted:    help_desk/config/initializers/mime_types.rb[m
+#	[31mdeleted:    help_desk/config/initializers/secret_token.rb[m
+#	[31mdeleted:    help_desk/config/initializers/session_store.rb[m
+#	[31mdeleted:    help_desk/config/initializers/wrap_parameters.rb[m
+#	[31mdeleted:    help_desk/config/locales/en.yml[m
+#	[31mdeleted:    help_desk/config/routes.rb[m
+#	[31mdeleted:    help_desk/db/migrate/20140228210007_create_contatos.rb[m
+#	[31mdeleted:    help_desk/db/schema.rb[m
+#	[31mdeleted:    help_desk/db/seeds.rb[m
+#	[31mdeleted:    help_desk/lib/assets/.keep[m
+#	[31mdeleted:    help_desk/lib/tasks/.keep[m
+#	[31mdeleted:    help_desk/log/.keep[m
+#	[31mdeleted:    help_desk/public/404.html[m
+#	[31mdeleted:    help_desk/public/422.html[m
+#	[31mdeleted:    help_desk/public/500.html[m
+#	[31mdeleted:    help_desk/public/favicon.ico[m
+#	[31mdeleted:    help_desk/public/robots.txt[m
+#	[31mdeleted:    help_desk/test/controllers/.keep[m
+#	[31mdeleted:    help_desk/test/controllers/paginas_controller_test.rb[m
+#	[31mdeleted:    help_desk/test/fixtures/.keep[m
+#	[31mdeleted:    help_desk/test/fixtures/contatos.yml[m
+#	[31mdeleted:    help_desk/test/helpers/.keep[m
+#	[31mdeleted:    help_desk/test/helpers/paginas_helper_test.rb[m
+#	[31mdeleted:    help_desk/test/integration/.keep[m
+#	[31mdeleted:    help_desk/test/mailers/.keep[m
+#	[31mdeleted:    help_desk/test/models/.keep[m
+#	[31mdeleted:    help_desk/test/models/contato_test.rb[m
+#	[31mdeleted:    help_desk/test/test_helper.rb[m
+#	[31mdeleted:    help_desk/vendor/assets/javascripts/.keep[m
+#	[31mdeleted:    help_desk/vendor/assets/stylesheets/.keep[m
+#	[31mdeleted:    help_desk/vendor/assets/stylesheets/bootstrap.min.css[m
+#	[31mdeleted:    tarefas[m
+#	[31mdeleted:    teste/.gitignore[m
+#	[31mdeleted:    teste/Gemfile[m
+#	[31mdeleted:    teste/Gemfile.lock[m
+#	[31mdeleted:    teste/README.rdoc[m
+#	[31mdeleted:    teste/Rakefile[m
+#	[31mdeleted:    teste/app/assets/images/.keep[m
+#	[31mdeleted:    teste/app/assets/javascripts/application.js[m
+#	[31mdeleted:    teste/app/assets/javascripts/pages.js.coffee[m
+#	[31mdeleted:    teste/app/assets/stylesheets/application.css[m
+#	[31mdeleted:    teste/app/assets/stylesheets/pages.css.scss[m
+#	[31mdeleted:    teste/app/controllers/application_controller.rb[m
+#	[31mdeleted:    teste/app/controllers/concerns/.keep[m
+#	[31mdeleted:    teste/app/controllers/pages_controller.rb[m
+#	[31mdeleted:    teste/app/helpers/application_helper.rb[m
+#	[31mdeleted:    teste/app/helpers/pages_helper.rb[m
+#	[31mdeleted:    teste/app/mailers/.keep[m
+#	[31mdeleted:    teste/app/models/.keep[m
+#	[31mdeleted:    teste/app/models/concerns/.keep[m
+#	[31mdeleted:    teste/app/views/layouts/application.html.erb[m
+#	[31mdeleted:    teste/app/views/pages/about.html.erb[m
+#	[31mdeleted:    teste/app/views/pages/home.html.erb[m
+#	[31mdeleted:    teste/bin/bundle[m
+#	[31mdeleted:    teste/bin/rails[m
+#	[31mdeleted:    teste/bin/rake[m
+#	[31mdeleted:    teste/config.ru[m
+#	[31mdeleted:    teste/config/application.rb[m
+#	[31mdeleted:    teste/config/boot.rb[m
+#	[31mdeleted:    teste/config/database.yml[m
+#	[31mdeleted:    teste/config/environment.rb[m
+#	[31mdeleted:    teste/config/environments/development.rb[m
+#	[31mdeleted:    teste/config/environments/production.rb[m
+#	[31mdeleted:    teste/config/environments/test.rb[m
+#	[31mdeleted:    teste/config/initializers/backtrace_silencers.rb[m
+#	[31mdeleted:    teste/config/initializers/filter_parameter_logging.rb[m
+#	[31mdeleted:    teste/config/initializers/inflections.rb[m
+#	[31mdeleted:    teste/config/initializers/mime_types.rb[m
+#	[31mdeleted:    teste/config/initializers/secret_token.rb[m
+#	[31mdeleted:    teste/config/initializers/session_store.rb[m
+#	[31mdeleted:    teste/config/initializers/wrap_parameters.rb[m
+#	[31mdeleted:    teste/config/locales/en.yml[m
+#	[31mdeleted:    teste/config/routes.rb[m
+#	[31mdeleted:    teste/db/seeds.rb[m
+#	[31mdeleted:    teste/lib/assets/.keep[m
+#	[31mdeleted:    teste/lib/tasks/.keep[m
+#	[31mdeleted:    teste/log/.keep[m
+#	[31mdeleted:    teste/public/404.html[m
+#	[31mdeleted:    teste/public/422.html[m
+#	[31mdeleted:    teste/public/500.html[m
+#	[31mdeleted:    teste/public/favicon.ico[m
+#	[31mdeleted:    teste/public/robots.txt[m
+#	[31mdeleted:    teste/test/controllers/.keep[m
+#	[31mdeleted:    teste/test/controllers/pages_controller_test.rb[m
+#	[31mdeleted:    teste/test/fixtures/.keep[m
+#	[31mdeleted:    teste/test/helpers/.keep[m
+#	[31mdeleted:    teste/test/helpers/pages_helper_test.rb[m
+#	[31mdeleted:    teste/test/integration/.keep[m
+#	[31mdeleted:    teste/test/mailers/.keep[m
+#	[31mdeleted:    teste/test/models/.keep[m
+#	[31mdeleted:    teste/test/test_helper.rb[m
+#	[31mdeleted:    teste/vendor/assets/javascripts/.keep[m
+#	[31mdeleted:    teste/vendor/assets/stylesheets/.keep[m
+#	[31mmodified:   typescript[m
+#
+# Untracked files:
+#	[31mapp/models/usuario.rb[m
+no changes added to commit
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[32mgit[39m status[10D[32ml[32ml[39m[39m        [8D[32ml[39m[39m [32mc[32md[39m vagrant/tarefas[15D[4m.[4m.[24m             [13D[32mg[32mi[32mt[39m[24m [24mpush -u github master[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mgit[39m push -u github master[K[105C[34m[2.1.0][39m[112D
+]2;noglob]1;noglobWarning: Permanently added the RSA host key for IP address '192.30.252.129' to the list of known hosts.
+Counting objects: 283, done.
+Compressing objects:   0% (1/250)   Compressing objects:   1% (3/250)   Compressing objects:   2% (5/250)   Compressing objects:   3% (8/250)   Compressing objects:   4% (10/250)   Compressing objects:   5% (13/250)   Compressing objects:   6% (15/250)   Compressing objects:   7% (18/250)   Compressing objects:   8% (20/250)   Compressing objects:   9% (23/250)   Compressing objects:  10% (25/250)   Compressing objects:  11% (28/250)   Compressing objects:  12% (30/250)   Compressing objects:  13% (33/250)   Compressing objects:  14% (35/250)   Compressing objects:  15% (38/250)   Compressing objects:  16% (40/250)   Compressing objects:  17% (43/250)   Compressing objects:  18% (45/250)   Compressing objects:  19% (48/250)   Compressing objects:  20% (50/250)   Compressing objects:  21% (53/250)   Compressing objects:  22% (55/250)   Compressing objects:  23% (58/250)   Compressing objects:  24% (60/250)   Compressing objects:  25% (63/250)   Compressing objects:  26% (65/250)   Compressing objects:  27% (68/250)   Compressing objects:  28% (70/250)   Compressing objects:  29% (73/250)   Compressing objects:  30% (75/250)   Compressing objects:  31% (78/250)   Compressing objects:  32% (80/250)   Compressing objects:  33% (83/250)   Compressing objects:  34% (85/250)   Compressing objects:  35% (88/250)   Compressing objects:  36% (90/250)   Compressing objects:  37% (93/250)   Compressing objects:  38% (95/250)   Compressing objects:  39% (98/250)   Compressing objects:  40% (100/250)   Compressing objects:  41% (103/250)   Compressing objects:  42% (105/250)   Compressing objects:  43% (108/250)   Compressing objects:  44% (110/250)   Compressing objects:  45% (113/250)   Compressing objects:  46% (115/250)   Compressing objects:  47% (118/250)   Compressing objects:  48% (120/250)   Compressing objects:  49% (123/250)   Compressing objects:  50% (125/250)   Compressing objects:  51% (128/250)   Compressing objects:  52% (130/250)   Compressing objects:  53% (133/250)   Compressing objects:  54% (135/250)   Compressing objects:  55% (138/250)   Compressing objects:  56% (140/250)   Compressing objects:  57% (143/250)   Compressing objects:  58% (145/250)   Compressing objects:  59% (148/250)   Compressing objects:  60% (150/250)   Compressing objects:  61% (153/250)   Compressing objects:  62% (155/250)   Compressing objects:  63% (158/250)   Compressing objects:  64% (160/250)   Compressing objects:  65% (163/250)   Compressing objects:  66% (165/250)   Compressing objects:  67% (168/250)   Compressing objects:  68% (170/250)   Compressing objects:  69% (173/250)   Compressing objects:  70% (175/250)   Compressing objects:  71% (178/250)   Compressing objects:  72% (180/250)   Compressing objects:  73% (183/250)   Compressing objects:  74% (185/250)   Compressing objects:  75% (188/250)   Compressing objects:  76% (190/250)   Compressing objects:  77% (193/250)   Compressing objects:  78% (195/250)   Compressing objects:  79% (198/250)   Compressing objects:  80% (200/250)   Compressing objects:  81% (203/250)   Compressing objects:  82% (205/250)   Compressing objects:  83% (208/250)   Compressing objects:  84% (210/250)   Compressing objects:  85% (213/250)   Compressing objects:  86% (215/250)   Compressing objects:  87% (218/250)   Compressing objects:  88% (220/250)   Compressing objects:  89% (223/250)   Compressing objects:  90% (225/250)   Compressing objects:  91% (228/250)   Compressing objects:  92% (230/250)   Compressing objects:  93% (233/250)   Compressing objects:  94% (235/250)   Compressing objects:  95% (238/250)   Compressing objects:  96% (240/250)   Compressing objects:  97% (243/250)   Compressing objects:  98% (245/250)   Compressing objects:  99% (248/250)   Compressing objects: 100% (250/250)   Compressing objects: 100% (250/250), done.
+Writing objects:   0% (1/283)   Writing objects:   1% (3/283)   Writing objects:   2% (6/283)   Writing objects:   3% (9/283)   Writing objects:   4% (12/283)   Writing objects:   5% (15/283)   Writing objects:   6% (17/283)   Writing objects:   7% (20/283)   Writing objects:   8% (23/283)   Writing objects:   9% (26/283)   Writing objects:  10% (29/283)   Writing objects:  11% (32/283)   Writing objects:  12% (34/283)   Writing objects:  13% (37/283)   Writing objects:  14% (40/283)   Writing objects:  15% (44/283)   Writing objects:  16% (46/283)   Writing objects:  17% (49/283)   Writing objects:  18% (51/283)   Writing objects:  19% (54/283)   Writing objects:  20% (57/283)   Writing objects:  21% (60/283)   Writing objects:  22% (63/283)   Writing objects:  23% (66/283)   Writing objects:  24% (69/283)   Writing objects:  25% (71/283)   Writing objects:  26% (74/283)   Writing objects:  27% (78/283)   Writing objects:  28% (80/283)   Writing objects:  29% (83/283)   Writing objects:  30% (85/283)   Writing objects:  31% (89/283)   Writing objects:  32% (91/283)   Writing objects:  33% (94/283)   Writing objects:  34% (98/283)   Writing objects:  35% (100/283)   Writing objects:  36% (102/283)   Writing objects:  37% (105/283)   Writing objects:  38% (108/283)   Writing objects:  39% (111/283)   Writing objects:  40% (114/283)   Writing objects:  41% (117/283)   Writing objects:  42% (119/283)   Writing objects:  43% (122/283)   Writing objects:  44% (125/283)   Writing objects:  45% (128/283)   Writing objects:  46% (132/283)   Writing objects:  47% (134/283)   Writing objects:  48% (136/283)   Writing objects:  49% (139/283)   Writing objects:  50% (142/283)   Writing objects:  51% (145/283)   Writing objects:  52% (148/283)   Writing objects:  53% (150/283)   Writing objects:  54% (153/283)   Writing objects:  55% (156/283)   Writing objects:  56% (159/283)   Writing objects:  57% (162/283)   Writing objects:  58% (165/283)   Writing objects:  59% (167/283)   Writing objects:  60% (170/283)   Writing objects:  61% (173/283)   Writing objects:  62% (177/283)   Writing objects:  63% (179/283)   Writing objects:  64% (182/283)   Writing objects:  65% (184/283)   Writing objects:  66% (187/283)   Writing objects:  67% (190/283)   Writing objects:  68% (193/283)   Writing objects:  69% (196/283)   Writing objects:  70% (199/283)   Writing objects:  71% (201/283)   Writing objects:  72% (204/283)   Writing objects:  73% (207/283)   Writing objects:  74% (210/283)   Writing objects:  75% (213/283)   Writing objects:  76% (216/283)   Writing objects:  77% (218/283)   Writing objects:  78% (221/283)   Writing objects:  79% (224/283)   Writing objects:  80% (227/283)   Writing objects:  81% (230/283)   Writing objects:  82% (233/283)   Writing objects:  83% (235/283)   Writing objects:  84% (238/283)   Writing objects:  85% (241/283)   Writing objects:  86% (244/283)   Writing objects:  87% (247/283)   Writing objects:  88% (250/283)   Writing objects:  89% (252/283)   Writing objects:  90% (255/283)   Writing objects:  91% (258/283)   Writing objects:  92% (261/283)   Writing objects:  93% (264/283)   Writing objects:  94% (267/283)   Writing objects:  95% (269/283)   Writing objects:  96% (272/283)   Writing objects:  97% (275/283)   Writing objects:  98% (278/283)   Writing objects:  99% (281/283)   Writing objects: 100% (283/283)   Writing objects: 100% (283/283), 67.78 KiB, done.
+Total 283 (delta 94), reused 0 (delta 0)
+To git@github.com:gbonilhaa/tarefas.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from github.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[32mgit[39m push -u github master[21Dstatus               [15D[10D[32ml[32ml[39m[39m        [8D[32ml[39m[39m [32mc[32md[39m vagrant/tarefas[15D[4m.[4m.[24m             [13D[32mc[32ma[32mt[39m[24m [24mid_rsa.pub[14D[32mc[32md[39m[39m .ssh        vagrant[10D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mr[32mm[39m -rf .ssh[16D[24m[32mr[24m[32mm[39m[24m[39m [24m[39m-r[39mf[39m .ssh     [8D.ssh    [32ml[32ms[39m     [32ms[32ms[32mh-keygen[39m -t rsa -C [33m"gbonilha@paliari.com.br"[39m[46D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[39m [32mm[32mk[32md[32mi[32mr[39m .ssh      [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [31D[15D[24m[32mm[24m[32mk[24m[32md[24m[32mi[32mr[39m[39m [39m.[39ms[39ms[39mh     [10D[32mc[32md[39m[39m [39mh[39mome   [32mg[32mi[32mt[39m remote add github git@github.com:gbonilhaa/tarefas.git[58D[32mc[32ma[2C[39m[4m.[4mg[4mi[4mt[4m/[4mc[4mo[4mn[4mf[4mi[4mg[24m                                           [43D[15D[32mg[32mi[2C[24m[39mp[24mu[24ms[24mh[24m [24m-[24mu[24m [24mo[24mr[24migin master[21Dremote add origin git@github.com:gbonilhaa/tarefas.git[58D[32mr[32ma[32mk[32me[39m db:migrate                                           [43D[10Droutes    s [10D[32mv[32mi[39m[39m [39m       [8D[4m[32ms[4m[32mu[4m[32mdo[24m[39m [32mgit[39m remote add origin https://gbonilhaa@bitbucket.org/gbonilhaa/tarefas.git[80D[24m[32mg[24m[32mi[24m[32mt[39m[24m[39m r[39me[39mm[39mote add origin https://gbonilhaa@bitbucket.org/gbonilhaa/tarefas.git     [75D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mg[32mi[32mt[39m remote add origin git@github.com:gbonilhaa/tarefas.git            [12D[63D[24m[32mg[24m[32mi[24m[32mt[39m[24m[39m c[39mo[39mm[39mmit -m [33m"[33m [33ma[33md[33md[33m [33mr[33me[33mm[33mo[33mv[33me[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33m"[39m                            [28D[31Dadd [4m.[24m     [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [26Dcomm[24mit -m [33m" adicinou listar usuarios"[39m[26D[33ma[33mj[33mu[33ms[33mt[33ma[33m [33mc[33ma[33mm[33mp[33mo[33ms[33m [33mp[33ma[33mr[33ma[33m [33ms[33ma[33ml[33mv[33ma[33m [33mu[33msuario"[39m[33D[33mc[33mr[33mi[33ma[33mn[33md[33mo[33m [33mt[33ma[33mb[33me[33ml[33ma[33ms[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33m/[33ml[33mo[33mg[33mi[33mn[33m"[39m[39m [39m [39m [45D[32mr[32ma[32mi[32ml[32ms[39m g resour[39mc[39me[39m [39mu[39ms[39mu[39ma[39mr[39mi[39mo[39m [39mn[39mo[39mm[39me[39m [39me[39mm[39ma[39mi[39ml[39m [39mp[39ma[39ms[39ms[39mw[39mo[39mr[39md[39m_digest --no-test-framework --no-assets --no-helper[95D[32mg[32mi[32mt[39m[39m [39mcommit -m [33m"[33mc[33mr[33mi[33ma[33mn[33md[33mo[33m [33mt[33ma[33mb[33me[33ml[33ma[33ms[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33m/[33ml[33mo[33mg[33mi[33mn[33m"[39m                                                  [50D[45D[32mr[32ma[32mi[32ml[32ms[39m g resour[39mc[39me[39m [39mu[39ms[39mu[39ma[39mr[39mi[39mo[39m [39mn[39mo[39mm[39me[39m [39me[39mm[39ma[39mi[39ml[39m [39mp[39ma[39ms[39ms[39mw[39mo[39mr[39md[39m_digest --no-test-framework --no-assets --no-helper[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mrails[39m g resource usuario nome email password_digest --no-test-framework --no-assets --no-helper[K[35C[34m[2.1.0][39m[42D
+]2;rails]1;rails[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20140317173446_create_usuarios.rb
+[1m[31m    conflict[0m    app/models/usuario.rb
+  Overwrite /vagrant/tarefas/app/models/usuario.rb? (enter "h" for help) [Ynaqdh] Y
+[1m[33m       force[0m    app/models/usuario.rb
+[1m[37m      invoke[0m  controller
+[1m[31m    conflict[0m    app/controllers/usuarios_controller.rb
+  Overwrite /vagrant/tarefas/app/controllers/usuarios_controller.rb? (enter "h" for help) [Ynaqdh] Y
+[1m[33m       force[0m    app/controllers/usuarios_controller.rb
+[1m[37m      invoke[0m    erb
+[1m[34m       exist[0m      app/views/usuarios
+[1m[37m      invoke[0m  resource_route
+[1m[32m       route[0m    resources :usuarios
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137)   Writing objects:  98% (278/283)   Writing objects:  99% (281/283)   Writing objects: 100% (283/283)   Writing objects: 100% (283/283), 67.78 KiB, done.
+Total 283 (delta 94), reused 0 (delta 0)
+To git@github.com:gbonilhaa/tarefas.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from github.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[32mgit[39m push -u github master[21Dstatus               [15D[10D[32ml[32ml[39m[39m        [8D[32ml[39m[39m [32mc[32md[39m vagrant/tarefas[15D[4m.[4m.[24m             [13D[32mc[32ma[32mt[39m[24m [24mid_rsa.pub[14D[32mc[32md[39m[39m .ssh        vagrant[10D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mr[32mm[39m -rf .ssh[16D[24m[32mr[24m[32mm[39m[24m[39m [24m[39m-r[39mf[39m .ssh     [8D.ssh    [32ml[32ms[39m     [32ms[32ms[32mh-keygen[39m -t rsa -C [33m"gbonilha@paliari.com.br"[39m[46D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[39m [32mm[32mk[32md[32mi[32mr[39m .ssh      [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [31D[15D[24m[32mm[24m[32mk[24m[32md[24m[32mi[32mr[39m[39m [39m.[39ms[39ms[39mh     [10D[32mc[32md[39m[39m [39mh[39mome   [32mg[32mi[32mt[39m remote add github git@github.com:gbonilhaa/tarefas.git[58D[32mc[32ma[2C[39m[4m.[4mg[4mi[4mt[4m/[4mc[4mo[4mn[4mf[4mi[4mg[24m                                           [43D[15D[32mg[32mi[2C[24m[39mp[24mu[24ms[24mh[24m [24m-[24mu[24m [24mo[24mr[24migin master[21Dremote add origin git@github.com:gbonilhaa/tarefas.git[58D[32mr[32ma[32mk[32me[39m db:migrate                                           [43D[10Droutes    s [10D[32mv[32mi[39m[39m [39m       [8D[4m[32ms[4m[32mu[4m[32mdo[24m[39m [32mgit[39m remote add origin https://gbonilhaa@bitbucket.org/gbonilhaa/tarefas.git[80D[24m[32mg[24m[32mi[24m[32mt[39m[24m[39m r[39me[39mm[39mote add origin https://gbonilhaa@bitbucket.org/gbonilhaa/tarefas.git     [75D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m [32mg[32mi[32mt[39m remote add origin git@github.com:gbonilhaa/tarefas.git            [12D[63D[24m[32mg[24m[32mi[24m[32mt[39m[24m[39m c[39mo[39mm[39mmit -m [33m"[33m [33ma[33md[33md[33m [33mr[33me[33mm[33mo[33mv[33me[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33m"[39m                            [28D[31Dadd [4m.[24m     [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [26Dcomm[24mit -m [33m" adicinou listar usuarios"[39m[26D[33ma[33mj[33mu[33ms[33mt[33ma[33m [33mc[33ma[33mm[33mp[33mo[33ms[33m [33mp[33ma[33mr[33ma[33m [33ms[33ma[33ml[33mv[33ma[33m [33mu[33msuario"[39m[33D[33mc[33mr[33mi[33ma[33mn[33md[33mo[33m [33mt[33ma[33mb[33me[33ml[33ma[33ms[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33m/[33ml[33mo[33mg[33mi[33mn[33m"[39m[39m [39m [39m [45D[32mr[32ma[32mi[32ml[32ms[39m g resour[39mc[39me[39m [39mu[39ms[39mu[39ma[39mr[39mi[39mo[39m [39mn[39mo[39mm[39me[39m [39me[39mm[39ma[39mi[39ml[39m [39mp[39ma[39ms[39ms[39mw[39mo[39mr[39md[39m_digest --no-test-framework --no-assets --no-helper[95D[32mg[32mi[32mt[39m[39m [39mcommit -m [33m"[33mc[33mr[33mi[33ma[33mn[33md[33mo[33m [33mt[33ma[33mb[33me[33ml[33ma[33ms[33m [33mu[33ms[33mu[33ma[33mr[33mi[33mo[33m/[33ml[33mo[33mg[33mi[33mn[33m"[39m                                                  [50D[45D[32mr[32ma[32mi[32ml[32ms[39m g resour[39mc[39me[39m [39mu[39ms[39mu[39ma[39mr[39mi[39mo[39m [39mn[39mo[39mm[39me[39m [39me[39mm[39ma[39mi[39ml[39m [39mp[39ma[39ms[39ms[39mw[39mo[39mr[39md[39m_digest --no-test-framework --no-assets --no-helper[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mrails[39m g resource usuario nome email password_digest --no-test-framework --no-assets --no-helper[K[35C[34m[2.1.0][39m[42D
+]2;rails]1;rails[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20140317173446_create_usuarios.rb
+[1m[31m    conflict[0m    app/models/usuario.rb
+  Overwrite /vagrant/tarefas/app/models/usuario.rb? (enter "h" for help) [Ynaqdh] Y
+[1m[33m       force[0m    app/models/usuario.rb
+[1m[37m      invoke[0m  controller
+[1m[31m    conflict[0m    app/controllers/usuarios_controller.rb
+  Overwrite /vagrant/tarefas/app/controllers/usuarios_controller.rb? (enter "h" for help) [Ynaqdh] Y
+[1m[33m       force[0m    app/controllers/usuarios_controller.rb
+[1m[37m      invoke[0m    erb
+[1m[34m       exist[0m      app/views/usuarios
+[1m[37m      invoke[0m  resource_route
+[1m[32m       route[0m    resources :usuarios
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[32mrails[39m g resource usuario nome email password_digest --no-test-framework --no-assets --no-helper[95D[39m [39m [39m [39m [39m                                                                                           [95D[32mr[39m[39m[4mr[4ma[24m[4mr[4ma[4mk[24m[24m[32mr[24m[32ma[24m[32mk[32me[39m [4md[24m[4md[4mb[24m[4m[33md[4m[33mb[4m[33m:[24m[39m[24m[39md[24m[39mb[24m[39m:migrate[?1l>[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [32mrake[39m db:migrate[K[115C[34m[2.1.0][39m[122D
+]2;noglob]1;noglob==  CreateUsuarios: migrating =================================================
+-- create_table(:usuarios)
+   -> 0.0660s
+==  CreateUsuarios: migrated (0.0672s) ========================================
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                ]2;/vagrant/tarefas]1;...rant/tarefas[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[?1h=[0m[27m[24m[J[35mvagrant[39m@[33mprecise32[39m [32m/vagrant/tarefas[39m ([36mmaster[39m[33m●[39m[31m●[39m[35m●[39m)$ [K[130C[34m[2.1.0][39m[137D[32mrake[39m db:migrate      [4m[33md[4m[33mb[4m[33m:[24m[39m [39m[4md[39m[4mb[24m[24m[39m [4md[24m[24m [24m [39m[4mr[39m[4ma[39m[4mk[24m[39m [4mr[4ma[24m[24m [24m[32mr[39m[24m [39m [32mg[39m[32mg[32mi[39m[32mg[32mi[32mt[39m [4ma[24m[4m[33ma[4m[33md[24m[39m[
