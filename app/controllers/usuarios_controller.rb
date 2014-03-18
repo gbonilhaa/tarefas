@@ -2,16 +2,15 @@ class UsuariosController < ApplicationController
 
   def index
     @usuarios = Usuario.all
-    render :index
   end
 
   def create
-    Usuario.create nome: params[:nome], email: params[:email], password_digest: params[:password_digest]
+    Usuario.create usuario_params
     redirect_to usuarios_path
   end
 
   def update
-    Usuario.update nome: params[:nome], email: params[:email], password_digest: params[:password_digest]
+    Usuario.update params[:id], usuario_params
     redirect_to usuarios_path
   end
 
@@ -21,14 +20,23 @@ class UsuariosController < ApplicationController
     redirect_to usuarios_path
   end
 
+  
+  def new
+  	@usuario = Usuario.new
+  end
+
   def edit
   	@usuario = Usuario.find params[:id]
   	render :new
   end
 
-  def new
-  	@usuario = Usuario.new
+  private
+
+  def usuario_params
+  	params.requeire(:usuario).permit(:nome, :email, :password_digtest
   end
+
+  )
 end
 
 
