@@ -1,5 +1,7 @@
 <section id="todoapp">
 
+  
+
   <header id="header">
     <h1>Tarefas</h1>
  <%= form_tag tarefas_path do %>
@@ -15,24 +17,59 @@
 
 
 
+  <!-- 
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <ul class="list-group">
+          <%= form_tag tarefas_path do %>
+           <li  class="list-group-item" ><input id=""
+                class="form-control" 
+                 placeholder="O que você precisa fazer?"
+                 name="tarefa"
+                 autofocus
+                 required></li>
+      <% end %>
+          <% for tarefa in @tarefas %>
+              <li class="list-group-item">
+              <div class="view">
+                <a href="<%= toggle_tarefa_path tarefa %>"
+                   class="toggle"
+                   data-method="patch">
+                </a>
+
+                <label>
+                  <a href="<%= edit_tarefa_path tarefa %>?list=<%= action_name %>">
+                    <%= tarefa.titulo %>
+                  </a>
+                </label>
+
+                <a href="<%= tarefa_path tarefa %>"
+                   data-method="delete"
+                   data-confirm="Tem Certeza?"
+                   class="destroy">
+                </a>
+
+              </div>
+
+              <%= form_for tarefa do %>
+                  <input type="hidden" name="list" value="<%= params[:list] || :index %>">
+                  <input class="edit" name="titulo" value="<%= tarefa.titulo %>">
+              <% end %>
+
+            </li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </div> -->
 
 
+  <section id="main">
+    <ul id="todo-list">
 
-<!-- 
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 col-md-12">
-      <ul class="list-group">
-        <%= form_tag tarefas_path do %>
-         <li  class="list-group-item" ><input id=""
-              class="form-control" 
-               placeholder="O que você precisa fazer?"
-               name="tarefa"
-               autofocus
-               required></li>
-    <% end %>
-        <% for tarefa in @tarefas %>
-            <li class="list-group-item">
+      <% for tarefa in @tarefas %>
+          <li class="<%= 'editing ' if @tarefa == tarefa %> <%= 'completed' if tarefa.concluida? %>">
             <div class="view">
               <a href="<%= toggle_tarefa_path tarefa %>"
                  class="toggle"
@@ -48,53 +85,6 @@
               <a href="<%= tarefa_path tarefa %>"
                  data-method="delete"
                  data-confirm="Tem Certeza?"
-                 class="destroy">
-              </a>
-
-            </div>
-
-            <%= form_for tarefa do %>
-                <input type="hidden" name="list" value="<%= params[:list] || :index %>">
-                <input class="edit" name="titulo" value="<%= tarefa.titulo %>">
-            <% end %>
-
-          </li>
-        <% end %>
-      </ul>
-    </div>
-  </div>
-</div> -->
-
-
-
-
-
-
-
-
-
-
-  <section id="main">
-    <ul id="todo-list">
-
-      <% for tarefa in @tarefas %>
-          <li class="<%= 'editing ' if @tarefa == tarefa %> <%= 'completed' if tarefa.concluida? %>">
-            <div class="view">
-              <a href="<%= toggle_tarefa_path tarefa %>"
-                 class="toggle"
-                 data-method="patch">
-              </a>
-
-              <label>
-                <a href="<%= edit_tarefa_path tarefa %>?list=<%= action_name %>"
-                >
-                  <%= tarefa.titulo %>
-                </a>
-              </label>
-
-              <a href="<%= tarefa_path tarefa %>"
-                 data-method="delete"
-                 data-confirm="Tem Certeza?"
                  class="destroy"></a>
             </div>
 
@@ -102,11 +92,10 @@
                 <input type="hidden" name="list" value="<%= params[:list] || :index %>">
                 <input class="edit" name="titulo" value="<%= tarefa.titulo %>" autofocus required>
             <% end %>
-
-          </li>
+         </li>
       <% end %>
-
     </ul>
+
   </section>
 
 
@@ -144,8 +133,17 @@
            href="<%= destroy_concluidas_tarefas_path %>"
            data-method="delete"
            data-confirm="Tem Certeza?">
-          Excluir Concluídas (<%= @count_concluidas %>)
+          Excluir Concluídas (<%= @count_concluidas %>
         </a>
-    <% end %>
+
+  <% end %>
   </footer>
+
+
 </section>
+<ul>
+      <p class="bs-example">
+        <a href="http://localhost:3000/usuarios" class="btn btn-warning btn-lg active" role="button">usuario</a>
+        <a href="http://localhost:3000/usuarios/new" class="btn btn-success btn-lg active" role="button">nova conta</a>
+      </p>
+</ul>

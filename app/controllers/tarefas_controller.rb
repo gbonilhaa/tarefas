@@ -7,7 +7,7 @@ class TarefasController < ApplicationController
   end
 
 
-  /  pedir login e senha antes 
+  /  pedir login e senha 
   protected
   def secure?
     true
