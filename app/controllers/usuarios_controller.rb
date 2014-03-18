@@ -26,10 +26,9 @@ class UsuariosController < ApplicationController
   	render :new
   end
 
-  # def create
-  # 	@usuario = new Usuario
-  # 	render :new
-  # end
+  def new
+  	@usuario = Usuario.new
+  end
 end
 
 
