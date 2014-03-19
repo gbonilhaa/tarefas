@@ -33,10 +33,8 @@ class UsuariosController < ApplicationController
   private
 
   def usuario_params
-  	params.requeire(:usuario).permit(:nome, :email, :password_digtest
+  	params.requeire(:usuario).permit(:nome, :email, :password_digtest)
   end
-
-  )
 end
 
 

@@ -13,56 +13,6 @@
 
   </header>
 
-
-
-  <!-- 
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-md-12">
-        <ul class="list-group">
-          <%= form_tag tarefas_path do %>
-           <li  class="list-group-item" ><input id=""
-                class="form-control" 
-                 placeholder="O que você precisa fazer?"
-                 name="tarefa"
-                 autofocus
-                 required></li>
-      <% end %>
-          <% for tarefa in @tarefas %>
-              <li class="list-group-item">
-              <div class="view">
-                <a href="<%= toggle_tarefa_path tarefa %>"
-                   class="toggle"
-                   data-method="patch">
-                </a>
-
-                <label>
-                  <a href="<%= edit_tarefa_path tarefa %>?list=<%= action_name %>">
-                    <%= tarefa.titulo %>
-                  </a>
-                </label>
-
-                <a href="<%= tarefa_path tarefa %>"
-                   data-method="delete"
-                   data-confirm="Tem Certeza?"
-                   class="destroy">
-                </a>
-
-              </div>
-
-              <%= form_for tarefa do %>
-                  <input type="hidden" name="list" value="<%= params[:list] || :index %>">
-                  <input class="edit" name="titulo" value="<%= tarefa.titulo %>">
-              <% end %>
-
-            </li>
-          <% end %>
-        </ul>
-      </div>
-    </div>
-  </div> -->
-
-
   <section id="main">
     <ul id="todo-list">
 
