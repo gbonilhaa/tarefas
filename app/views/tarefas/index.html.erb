@@ -10,7 +10,6 @@
              autocomplete="off"
              required>
     <% end %>
-
   </header>
 
   <section id="main">
@@ -33,7 +32,8 @@
               <a href="<%= tarefa_path tarefa %>"
                  data-method="delete"
                  data-confirm="Tem Certeza?"
-                 class="destroy"></a>
+                 class="destroy">
+              </a>
             </div>
 
             <%= form_for tarefa do %>
@@ -43,10 +43,7 @@
          </li>
       <% end %>
     </ul>
-
   </section>
-
-
 
   <footer id="footer">
     <span id="todo-count">
@@ -87,11 +84,11 @@
   <% end %>
   </footer>
 
-
 </section>
-<ul>
-      <p class="bs-example">
-        <a href="http://localhost:3000/usuarios" class="btn btn-warning btn-sm active" role="button">usuario</a>
-        <a href="http://localhost:3000/usuarios/new" class="btn btn-success btn-sm active" role="button">nova conta</a>
-      </p>
-</ul>
+
+  <ul>
+        <p class="bs-example">
+          <a href="http://localhost:3000/usuarios" class="btn btn-warning btn-sm active" role="button">usuario</a>
+          <a href="http://localhost:3000/usuarios/new" class="btn btn-success btn-sm active" role="button">nova conta</a>
+        </p>
+  </ul>
