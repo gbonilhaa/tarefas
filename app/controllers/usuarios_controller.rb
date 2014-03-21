@@ -38,6 +38,7 @@ before_action :acesso_restrito!, only: [:new, :edit]
 
   def logado?
     false
+    rand.round.zero?
   end
 
   def acesso_restrito!
