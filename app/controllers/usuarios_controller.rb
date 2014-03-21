@@ -3,7 +3,7 @@ before_action :acesso_restrito!, only: [:new, :edit]
   
   def index
     @usuarios = Usuario.all
-    session[:logado] = ! session[:logado]
+    
   end
 
   def create
