@@ -6,13 +6,6 @@ class TarefasController < ApplicationController
     @count_concluidas = count_concluidas
   end
 
-
-  /  pedir login e senha 
-  protected
-  def secure?
-    true
-  end /
-  
   def login
     login
   end

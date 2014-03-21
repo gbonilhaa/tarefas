@@ -1,5 +1,5 @@
 <h3>
-  Seja bem vindo, efetue seu cadastro!
+  Bem vindo, efetue seu cadastro!
 </h3>
 <div class="row">
   <div class="col-xs-1 col-sm-2 col-md-4">
@@ -23,8 +23,8 @@
          <%= f.label :password_confirmation, 'Senha (repetir)' %>
          <%= f.password_field :password_confirmation, class: 'form-control' %>
       </div>
-
           <%= submit_tag 'Salvar', class: 'btn btn-primary pull-right' %>          
+          <a href="<%= usuarios_path %>" class="btn btn-primary pull-right">Cancelar</a>
     <!-- </form> -->
     <% end %>
   </div>

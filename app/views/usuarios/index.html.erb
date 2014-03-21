@@ -1,7 +1,9 @@
   
   <h3>
-  Lista de Usuários
-</h3>
+  Lista de Usuários |
+    <a class="label label-default" href="<%= new_usuario_path %>">novo usuário</a> |
+    <a class="label label-default" href="<%= tarefas_path %>">Tarefas</a>
+  </h3>
   <table class="table table-hover">
     <thead>
     <tr>
@@ -20,7 +22,7 @@
           <td><%= usuario.id %></td>
           <td><%= usuario.nome %></td>
           <td><%= usuario.email %></td>
-          <td><%= usuario.password_digest %></td>
+          <td><%= truncate usuario.password_digest %></td>
           <td>
             <span>
               <a href="<%= edit_usuario_path usuario %>">
