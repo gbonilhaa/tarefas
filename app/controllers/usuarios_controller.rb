@@ -35,7 +35,8 @@ before_action :acesso_restrito!, only: [:new, :edit]
   private
 
   def usuario_params
-  	params.require(:usuario).permit(:nome, :email, :password, :password_confirmation)
+  	params.require(:cadastro).permit(:nome, :email, :password, :password_confirmation)
+    #params.require(:usuario).permit(:nome, :email, :password, :password_confirmation)
   end
 
   
