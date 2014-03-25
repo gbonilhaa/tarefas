@@ -39,7 +39,7 @@ before_action :acesso_restrito!, only: [:new, :edit]
   end
 
   def logado?
-    false
+    
     session[:logado].present?
   end
 
