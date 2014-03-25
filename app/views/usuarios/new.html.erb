@@ -17,11 +17,11 @@
 
       <div class="form-group">
           <%= f.label :password, 'Senha' %>
-          <%= f.password_field :password %>
+          <%= f.password_field :password, class: 'form-control' %>
       </div>
       <div class="form-group">
-         <%= f.label :password_confirmation %>
-         <%= f.text_field :password_confirmation %>
+         <%= f.label :password_confirmation, 'Senha (repetir)' %>
+         <%= f.text_field :password_confirmation, class: 'form-control' %>
       </div>
           <%= submit_tag 'Salvar', class: 'btn btn-primary pull-right' %>          
           <a href="<%= usuarios_path %>" class="btn btn-primary pull-right">Cancelar</a>
